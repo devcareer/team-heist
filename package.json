@@ -1,0 +1,25 @@
+{
+  "name": "team-heist",
+  "version": "1.0.0",
+  "description": "Hopper Project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w stylesheets -o dist/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcareer/team-heist.git"
+  },
+  "author": "Zainab Oyedeji<ololadeoselu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcareer/team-heist/issues"
+  },
+  "homepage": "https://github.com/devcareer/team-heist#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

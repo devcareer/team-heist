@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.6; }
+
+h1, h2, h3, h4 {
+  line-height: 1.3; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.img {
+  width: 100%; }
+
+.navbar {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem; }
+  .navbar .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 6rem; }
+  .navbar .nav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .navbar .nav a {
+    padding: 0 1rem; }
+  .navbar .headerimg {
+    margin-left: 8rem; }
+  .navbar .header-button {
+    border: 1px solid #01AAE4;
+    border-radius: 8px; }
+  .navbar .people {
+    border-right: 0.5px solid grey; }
+  .navbar .supporticon {
+    margin-left: 0.5rem; }
+  @media (max-width: 500px) {
+    .navbar .nav {
+      display: none; } }
+
+.section-footer {
+  padding: 4rem 0; }
+  .section-footer .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem; }
+  .section-footer .footer-image {
+    margin-bottom: 6rem; }
+  .section-footer .contain1 {
+    width: 40vw; }
+  .section-footer p {
+    margin-bottom: 1rem; }
+  .section-footer ul li {
+    margin-bottom: 0.5rem; }
+  .section-footer a > i {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    color: #505050; }
+  .section-footer .hoopper {
+    border-bottom: 2px solid black; }
+  .section-footer .supporticon {
+    margin-left: 0.5rem; }
+
+.ctamodal {
+  text-align: center;
+  margin-top: 13rem; }
+  .ctamodal .ctabtn {
+    width: 10rem;
+    height: 2rem;
+    background: #01AAE4;
+    border-radius: 8px; }
+  .ctamodal .playstore {
+    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%); }
+  .ctamodal .ctamodal a {
+    color: #FA6866;
+    text-decoration: none; }
+  .ctamodal input[type=text] {
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 0.3rem; }
+  .ctamodal ::placeholder {
+    padding-left: 0.5rem; }
+
+.grid {
+  display: flex;
+  margin-left: 32rem;
+  margin-top: 15rem; }
+  .grid .gridp {
+    text-align: center;
+    margin-top: 2rem; }
+  .grid .ctamodal2 {
+    text-align: center;
+    margin-top: 13rem; }
+    .grid .ctamodal2 .ctabtn {
+      width: 13rem;
+      height: 2.3rem;
+      margin-top: 2rem;
+      background: #01AAE4;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px; }
+  .grid .subnavbarsection .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    margin: 5rem;
+    overflow: hidden; }
+  .grid .subnavbarsection .subnav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .grid .subnavbarsection a {
+    text-decoration: none;
+    color: skyblue; }
+  .grid .subnavbarsection ul li {
+    list-style: none;
+    padding: 0 1rem; }
+  .grid .feat {
+    text-align: center; }
+    .grid .feat .featp {
+      margin-right: 21rem; }
+    .grid .feat h3 {
+      margin-right: 15rem; }
+    .grid .feat p {
+      margin-top: 1rem; }
+  .grid .feat2 {
+    margin-top: 5rem;
+    text-align: center; }
+
+.ctamodal {
+  text-align: center;
+  margin-top: 13rem; }
+  .ctamodal .ctabtn {
+    width: 10rem;
+    height: 2rem;
+    background: #01AAE4;
+    border-radius: 8px; }
+  .ctamodal .playstore {
+    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%); }
+  .ctamodal .ctamodal a {
+    color: #FA6866;
+    text-decoration: none; }
+  .ctamodal input[type=text] {
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 0.3rem; }
+  .ctamodal ::placeholder {
+    padding-left: 0.5rem; }
+
+.grid {
+  display: flex;
+  margin-left: 32rem;
+  margin-top: 15rem; }
+  .grid .gridp {
+    text-align: center;
+    margin-top: 2rem; }
+  .grid .ctamodal2 {
+    text-align: center;
+    margin-top: 13rem; }
+    .grid .ctamodal2 .ctabtn {
+      width: 13rem;
+      height: 2.3rem;
+      margin-top: 2rem;
+      background: #01AAE4;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px; }
+  .grid .subnavbarsection .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    margin: 5rem;
+    overflow: hidden; }
+  .grid .subnavbarsection .subnav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .grid .subnavbarsection a {
+    text-decoration: none;
+    color: skyblue; }
+  .grid .subnavbarsection ul li {
+    list-style: none;
+    padding: 0 1rem; }
+  .grid .feat {
+    text-align: center; }
+    .grid .feat .featp {
+      margin-right: 21rem; }
+    .grid .feat h3 {
+      margin-right: 15rem; }
+    .grid .feat p {
+      margin-top: 1rem; }
+  .grid .feat2 {
+    margin-top: 5rem;
+    text-align: center; }
