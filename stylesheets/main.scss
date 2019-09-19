@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 
 
 
+=======
+@import 'base/reset';
+@import 'abstracts/_variables';
+>>>>>>> adds careerlist page
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 
 @import 'base/reset';
 @import 'layouts/header';
-
+ 
 @import 'layouts/footer';
 @import 'pages/home'; 
 
@@ -120,8 +125,13 @@ a{
   }
 }
 
+<<<<<<< HEAD
   .feat2{
       margin-top: 5rem;
    text-align: center;
   }
 }
+=======
+@import 'layouts/_career-list-input';
+@import 'layouts/_career-list-table';
+>>>>>>> adds careerlist page
