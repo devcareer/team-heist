@@ -1,0 +1,36 @@
+.sub-navbar1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+    .sub-nav {
+        display: flex;
+        li {
+            margin-right: 1rem;
+        }
+        .sub-navbar-btn {
+            border: 1px solid #01AAE4;
+            border-radius: 8px;
+        }
+    }
+}
+
+.subnav-feat {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.home-cta-modal {
+    margin-top: 10rem;
+    text-align: center;
+    .home-copyright {
+        display: flex;
+    }
+}
+
+.home-ctamodal-2 {
+    margin-top: 10rem;
+    text-align: center;
+    .home-copyright {
+        display: flex;
+    }
+}

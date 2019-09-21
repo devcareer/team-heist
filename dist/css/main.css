@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.6; }
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.img {
+  width: 100%; }
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 2rem; }
+
+.main-footer {
+  display: flex;
+  margin: 4rem 0; }
+  .main-footer a > i {
+    margin-right: 0.8rem;
+    margin-top: 12rem;
+    color: #505050; }
+  .main-footer .footer-2 {
+    display: flex;
+    margin-left: 10rem;
+    width: 60vw;
+    margin-left: 20rem; }
+    .main-footer .footer-2 p {
+      margin-bottom: 1rem; }
+    .main-footer .footer-2 ul li {
+      margin-bottom: 0.5rem;
+      margin-right: 5rem; }
+    .main-footer .footer-2 .support-footer {
+      margin-left: 0.5rem; }
+    .main-footer .footer-2 .footer-line {
+      border-bottom: 2px solid black; }
+
+.navbar {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-left: 5rem; }
+  .navbar .navbar-ul {
+    display: flex;
+    margin-left: 22rem;
+    width: 60vw; }
+    .navbar .navbar-ul a {
+      margin-right: 3rem; }
+    .navbar .navbar-ul .people-nav {
+      border-right: 0.5px solid grey;
+      margin-right: 3rem; }
+    .navbar .navbar-ul .button-nav {
+      border: 1px solid #01AAE4;
+      border-radius: 8px;
+      height: 3rem;
+      padding-top: 0.5rem;
+      padding-left: 2.6rem; }
+    .navbar .navbar-ul .support-nav {
+      margin-left: 0.5rem; }
+  @media (max-width: 500px) {
+    .navbar .navbar-ul {
+      display: none; } }
+
+.careerdetails {
+  display: flex; }
+  .careerdetails .careerdetails-item1 {
+    width: 50vw;
+    background: skyblue; }
+  .careerdetails .careerdetails-item2 {
+    width: 50vw; }
+
+.companysection2 {
+  display: flex;
+  margin-top: 6rem; }
+
+.companysection2-num {
+  display: flex;
+  margin-top: 6rem; }
+
+.sub-navbar1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem; }
+  .sub-navbar1 .sub-nav {
+    display: flex; }
+    .sub-navbar1 .sub-nav li {
+      margin-right: 1rem; }
+    .sub-navbar1 .sub-nav .sub-navbar-btn {
+      border: 1px solid #01AAE4;
+      border-radius: 8px; }
+
+.subnav-feat {
+  margin-top: 10rem;
+  text-align: center; }
+
+.home-cta-modal {
+  margin-top: 10rem;
+  text-align: center; }
+  .home-cta-modal .home-copyright {
+    display: flex; }
+
+.home-ctamodal-2 {
+  margin-top: 10rem;
+  text-align: center; }
+  .home-ctamodal-2 .home-copyright {
+    display: flex; }
+
