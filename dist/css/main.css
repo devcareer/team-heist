@@ -81,9 +81,26 @@ ul {
   display: flex; }
   .careerdetails .careerdetails-item1 {
     width: 50vw;
-    background: skyblue; }
+    background: #01AAE4;
+    color: #FFFFFF;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem; }
+    .careerdetails .careerdetails-item1 .careerdetails-logo {
+      color: #FFFFFF; }
+    .careerdetails .careerdetails-item1 .careerdet-h1 {
+      padding-top: 4rem; }
+    .careerdetails .careerdetails-item1 .careerdet-p1 {
+      padding-top: 4rem;
+      padding-bottom: 2rem; }
   .careerdetails .careerdetails-item2 {
-    width: 50vw; }
+    width: 50vw;
+    padding-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem; }
+  .careerdetails .career-det-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
 
 .companysection2 {
   display: flex;
@@ -120,4 +137,3 @@ ul {
   text-align: center; }
   .home-ctamodal-2 .home-copyright {
     display: flex; }
-

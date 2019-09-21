@@ -1,12 +1,39 @@
 .careerdetails{
     display:flex;
+   
 
     .careerdetails-item1{
         width: 50vw;
-       background: skyblue;
+       background: $skyBlue;
+       color:$white;
+       padding-top: 4rem;
+       padding-left: 5rem;
+       padding-right: 5rem;
+
+       .careerdetails-logo{
+          color:$white;
+       }
+
+       .careerdet-h1{
+           padding-top: 4rem;
+       }
+
+       .careerdet-p1{
+           padding-top: 4rem;
+           padding-bottom: 2rem;
+       }
     }
     .careerdetails-item2{
         width: 50vw;
+        padding-top: 6rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+ 
+    }
+
+    .career-det-flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         
     }
  }
