@@ -21,6 +21,32 @@ ul {
 .img {
   width: 100%; }
 
+.section-footer {
+  padding: 4rem 0; }
+  .section-footer .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem; }
+  .section-footer .footer-image {
+    margin-bottom: 6rem; }
+  .section-footer .contain1 {
+    width: 40vw; }
+  .section-footer p {
+    margin-bottom: 1rem; }
+  .section-footer ul li {
+    margin-bottom: 0.5rem; }
+  .section-footer a > i {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    color: #505050; }
+  .section-footer .hoopper {
+    border-bottom: 2px solid black; }
+  .section-footer .supporticon {
+    margin-left: 0.5rem; }
+
 .navbar {
   font-size: 1.2rem;
   padding-top: 0.3rem;
@@ -53,31 +79,8 @@ ul {
     .navbar .nav {
       display: none; } }
 
-.section-footer {
-  padding: 4rem 0; }
-  .section-footer .container {
-    max-width: 100%;
-    margin: auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1rem; }
-  .section-footer .footer-image {
-    margin-bottom: 6rem; }
-  .section-footer .contain1 {
-    width: 40vw; }
-  .section-footer p {
-    margin-bottom: 1rem; }
-  .section-footer ul li {
-    margin-bottom: 0.5rem; }
-  .section-footer a > i {
-    margin-right: 2rem;
-    margin-top: 5rem;
-    color: #505050; }
-  .section-footer .hoopper {
-    border-bottom: 2px solid black; }
-  .section-footer .supporticon {
-    margin-left: 0.5rem; }
+.companysection2 {
+  margin-top: 60rem; }
 
 .ctamodal {
   text-align: center;

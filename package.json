@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "sass": "node-sass -w stylesheets -o dist/css/style.css"
+    "compile-sass": "node-sass scss/main.scss css/main.css -w"
   },
   "repository": {
     "type": "git",

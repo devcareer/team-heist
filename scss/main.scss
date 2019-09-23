@@ -1,14 +1,30 @@
-
-
-
+@import 'abstracts/_functions';
 @import 'abstracts/mixins';
-@import 'abstracts/variables';
+@import 'abstracts/_variables';
 
-@import 'base/reset';
-@import 'layouts/header';
+@import 'base/_reset';
+@import 'base/typography';
 
-@import 'layouts/footer';
-@import 'pages/home'; 
+@import 'components/_buttons';
+@import 'components/_carousel';
+@import 'components/_slider';
+
+@import 'layouts/_footer';
+@import 'layouts/_forms';
+@import 'layouts/_grid';
+@import 'layouts/_header';
+@import 'layouts/_navigation';
+@import 'layouts/_sidebar';
+
+@import 'pages/_about'; 
+@import 'pages/_contact'; 
+@import 'pages/_home'; 
+
+@import 'themes/_admin'; 
+@import 'themes/_themes'; 
+
+@import 'vendors/_jquery-ui';
+@import 'vendors/_bootstrap'; 
 
 .ctamodal{
     text-align: center;
