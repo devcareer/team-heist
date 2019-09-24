@@ -9,11 +9,11 @@ body {
   font-weight: 100;
   line-height: 1.6; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.3; }
-
-a {
-  text-decoration: none; }
 
 ul {
   list-style: none; }
@@ -21,195 +21,401 @@ ul {
 .img {
   width: 100%; }
 
-.section-footer {
-  padding: 4rem 0; }
-  .section-footer .container {
-    max-width: 100%;
-    margin: auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1rem; }
-  .section-footer .footer-image {
-    margin-bottom: 6rem; }
-  .section-footer .contain1 {
-    width: 40vw; }
-  .section-footer p {
-    margin-bottom: 1rem; }
-  .section-footer ul li {
-    margin-bottom: 0.5rem; }
-  .section-footer a > i {
-    margin-right: 2rem;
-    margin-top: 5rem;
-    color: #505050; }
-  .section-footer .hoopper {
-    border-bottom: 2px solid black; }
-  .section-footer .supporticon {
-    margin-left: 0.5rem; }
+.restriction {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 2rem; }
 
-.navbar {
-  font-size: 1.2rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  margin-top: 2rem; }
-  .navbar .container {
-    max-width: 100%;
-    margin: auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-right: 6rem; }
-  .navbar .nav {
-    justify-self: flex-end;
+.main-footer {
+  display: flex;
+  margin: 4rem 0; }
+  .main-footer a > i {
+    margin-right: 2rem;
+    margin-top: 9rem;
+    color: #505050; }
+  .main-footer .footer-1 {
+    width: 40vw; }
+    .main-footer .footer-1 .footer-image {
+      margin-right: 1rem;
+      margin-top: 1.5rem; }
+  .main-footer .footer-2 {
     display: flex;
-    align-items: center;
-    justify-content: center; }
-  .navbar .nav a {
-    padding: 0 1rem; }
-  .navbar .headerimg {
-    margin-left: 8rem; }
-  .navbar .header-button {
-    border: 1px solid #01AAE4;
-    border-radius: 8px; }
-  .navbar .people {
-    border-right: 0.5px solid grey; }
-  .navbar .supporticon {
-    margin-left: 0.5rem; }
+    width: 60vw; }
+    .main-footer .footer-2 p {
+      margin-bottom: 1rem; }
+    .main-footer .footer-2 ul li {
+      margin-bottom: 0.5rem;
+      margin-right: 5rem; }
+    .main-footer .footer-2 .support-footer {
+      margin-left: 0.5rem; }
+    .main-footer .footer-2 .footer-line {
+      border-bottom: 2px solid black; }
   @media (max-width: 500px) {
-    .navbar .nav {
+    .main-footer .footer-1 {
+      display: none; }
+    .main-footer .footer-2 {
       display: none; } }
 
+.media-footer {
+  display: none; }
+  .media-footer ul {
+    margin-top: 3rem; }
+    .media-footer ul li {
+      margin-bottom: 1rem; }
+    .media-footer ul .media-line {
+      border-bottom: thin solid grey; }
+  .media-footer .media-hop {
+    margin-left: 12rem; }
+  .media-footer .media-lang {
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 2rem;
+    width: 27rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem; }
+  .media-footer .media-terms {
+    margin-left: 10rem;
+    margin-top: 2rem; }
+  .media-footer .media-push1 {
+    margin-left: 20rem; }
+  .media-footer .media-push2 {
+    margin-left: 22rem; }
+  .media-footer .media-push3 {
+    margin-left: 21.5rem; }
+  .media-footer .media-push4 {
+    margin-left: 21.5rem; }
+  .media-footer .media-push5 {
+    margin-left: 19rem; }
+  .media-footer a > i {
+    color: white;
+    background: grey;
+    border-radius: 5rem;
+    padding: 0.5rem; }
+  .media-footer .media-copy {
+    border-top: thin solid grey;
+    text-align: center; }
+
+@media (max-width: 500px) {
+  .media-footer {
+    display: block; } }
+
+.navbar {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  overflow: hidden; }
+  .navbar .navbar-ul {
+    display: flex;
+    margin-left: 28rem;
+    width: 60vw; }
+    .navbar .navbar-ul a {
+      margin-right: 1.5rem; }
+    .navbar .navbar-ul .people-nav {
+      border-right: 0.5px solid grey;
+      margin-right: 1.5rem; }
+    .navbar .navbar-ul .send-nav {
+      border: 1px solid #01AAE4;
+      border-radius: 8px;
+      height: 2.5rem;
+      width: 16rem;
+      padding-left: 1.3rem;
+      padding-top: 0.2rem; }
+    .navbar .navbar-ul .support-nav {
+      margin-left: 0.5rem;
+      margin-bottom: 0.3rem; }
+  @media (max-width: 500px) {
+    .navbar .navbar-ul {
+      display: none; }
+    .navbar .headerimg {
+      display: none; } }
+
+.media-header {
+  display: none; }
+  @media (max-width: 500px) {
+    .media-header {
+      display: block;
+      background: #AAAAAA;
+      width: 100vw; }
+      .media-header .media-header1 {
+        margin-left: 1rem;
+        margin-bottom: 0.5rem; }
+      .media-header .media-header2 {
+        margin-left: 7rem; }
+      .media-header .media-header3 {
+        margin-left: 12rem;
+        margin-bottom: 0.2rem; } }
+
+.careerdetails {
+  display: flex; }
+  @media (max-width: 500px) {
+    .careerdetails {
+      display: none; } }
+
+.careerdetails-item1 {
+  width: 50vw;
+  background: #01AAE4;
+  color: #FFFFFF;
+  padding-top: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.careerdetails-logo {
+  color: #FFFFFF; }
+
+.careerdet-h1 {
+  display: flex;
+  width: 40rem; }
+  .careerdet-h1 .careerdet-h1-p {
+    margin-top: 5rem; }
+  .careerdet-h1 .careerdet-h1-image {
+    position: relative;
+    z-index: 1;
+    right: -9rem; }
+
+.career-border {
+  border-bottom: thin solid white; }
+
+.careerdet-p1 {
+  padding-top: 4rem;
+  padding-bottom: 2rem; }
+
+.careerdetails-item2 {
+  width: 50vw;
+  padding-top: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  z-index: 10; }
+  .careerdetails-item2 a > i {
+    color: #FFFFFF;
+    background: #01AAE4;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem; }
+  .careerdetails-item2 p {
+    margin-bottom: 2rem; }
+  .careerdetails-item2 h3 {
+    margin-top: 1rem; }
+  .careerdetails-item2 .careerdet-bottom {
+    border-bottom: thin solid grey;
+    padding-bottom: 1rem; }
+
+.career-det-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.1rem; }
+  .career-det-flex .career-button {
+    background-color: skyblue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    height: 2.5rem;
+    width: 25rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem; }
+
+.image-text {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .image-text .bottom-left {
+    position: absolute;
+    bottom: 1rem;
+    left: 5rem; }
+
+.career-details-mobile {
+  display: none; }
+  .career-details-mobile .careerdet-mobile-image {
+    margin-top: 5rem;
+    margin-bottom: 2rem; }
+  .career-details-mobile .career-det-mobile-h3 {
+    margin-bottom: 2rem; }
+  .career-details-mobile .career-det-mebiabtn {
+    background-color: skyblue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    height: 2.5rem;
+    width: 25rem;
+    margin-top: 2rem; }
+  .career-details-mobile .careerdet-mobile1 {
+    text-align: center; }
+    .career-details-mobile .careerdet-mobile1 h1 {
+      margin-top: 5rem;
+      margin-bottom: 1rem; }
+    .career-details-mobile .careerdet-mobile1 .applique {
+      background-color: skyblue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      height: 2.5rem;
+      width: 25rem;
+      margin-top: 2rem; }
+  @media (max-width: 500px) {
+    .career-details-mobile {
+      display: block; } }
+
 .companysection2 {
-  margin-top: 60rem; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10rem;
+  margin-left: 10rem; }
+  .companysection2 .hide-link {
+    display: none; }
+  .companysection2 .bear-footer {
+    width: 30rem;
+    height: 20rem;
+    margin-right: 15rem;
+    margin-top: -3rem; }
 
-.ctamodal {
-  text-align: center;
-  margin-top: 13rem; }
-  .ctamodal .ctabtn {
+.companysection2-num {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 15rem; }
+
+.company-graph {
+  margin-top: 8rem;
+  margin-left: 4rem; }
+
+.companysection-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-left: 5rem; }
+  .companysection-footer .carrot {
+    margin-right: 15rem;
+    margin-top: -4rem; }
+
+.company-footer-img {
+  width: 60rem;
+  margin-left: 10rem; }
+
+.company-media {
+  display: none; }
+
+@media (max-width: 500px) {
+  .companysection2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 5rem; }
+    .companysection2 .hide-link {
+      display: block;
+      color: skyBlue;
+      margin-top: 1rem; }
+    .companysection2 .bear-footer {
+      width: 20rem;
+      height: 15rem;
+      margin-top: 5rem; }
+  .companysection2-num {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem; }
+    .companysection2-num .company-item {
+      margin-bottom: 2rem; }
+  .company-graph {
+    display: none; }
+  .company-footer-img {
+    display: none; }
+  .companysection-footer {
+    display: none; }
+  .company-media {
+    display: block;
+    margin-top: 5rem;
+    margin-left: 1rem; }
+    .company-media h1 {
+      margin-bottom: 2rem; }
+    .company-media p {
+      margin-bottom: 2rem; }
+    .company-media .company-media-img {
+      margin-bottom: 1rem; } }
+
+.container {
+  overflow: hidden; }
+
+.sub-navbar1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem;
+  position: relative;
+  z-index: 2; }
+  .sub-navbar1 .sub-nav {
+    display: flex; }
+    .sub-navbar1 .sub-nav li {
+      margin-right: 1rem; }
+    .sub-navbar1 .sub-nav .sub-navbar-btn {
+      border: 1px solid #01AAE4;
+      border-radius: 8px; }
+
+.homepages-images {
+  position: relative;
+  margin-left: 15rem;
+  z-index: 1;
+  top: -23rem; }
+  .homepages-images .homepages-images1 {
+    margin-bottom: 50rem; }
+  .homepages-images .homepages-images2 {
+    margin-bottom: 22rem; }
+  .homepages-images .homepages-images3 {
+    margin-bottom: 30rem; }
+
+.subnav-feat {
+  margin-left: 25rem;
+  margin-top: -40rem; }
+  .subnav-feat .feat2 {
+    margin-left: -20rem;
+    margin-top: 5rem; }
+    .subnav-feat .feat2 img {
+      margin-left: 4rem; }
+
+.home-cta-modal {
+  margin-top: 10rem;
+  text-align: center; }
+  .home-cta-modal input[type] {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 2rem; }
+  .home-cta-modal .home-cta-btn {
     width: 10rem;
     height: 2rem;
     background: #01AAE4;
-    border-radius: 8px; }
-  .ctamodal .playstore {
-    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%); }
-  .ctamodal .ctamodal a {
-    color: #FA6866;
-    text-decoration: none; }
-  .ctamodal input[type=text] {
-    width: 12rem;
-    height: 1.5rem;
-    border-radius: 0.3rem; }
-  .ctamodal ::placeholder {
-    padding-left: 0.5rem; }
-
-.grid {
-  display: flex;
-  margin-left: 32rem;
-  margin-top: 15rem; }
-  .grid .gridp {
-    text-align: center;
-    margin-top: 2rem; }
-  .grid .ctamodal2 {
-    text-align: center;
-    margin-top: 13rem; }
-    .grid .ctamodal2 .ctabtn {
-      width: 13rem;
-      height: 2.3rem;
-      margin-top: 2rem;
-      background: #01AAE4;
-      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 8px; }
-  .grid .subnavbarsection .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
-    margin: 5rem;
-    overflow: hidden; }
-  .grid .subnavbarsection .subnav {
-    justify-self: flex-end;
+    border: none;
+    border-radius: 0.5rem;
+    color: white; }
+  .home-cta-modal h3 {
+    margin-bottom: 1rem; }
+  .home-cta-modal p {
+    margin-bottom: 1rem; }
+  .home-cta-modal .cta-modal_x {
+    margin-left: 78rem;
+    margin-bottom: 10rem; }
+  .home-cta-modal .home-copyright {
     display: flex;
-    align-items: center;
-    justify-content: center; }
-  .grid .subnavbarsection a {
-    text-decoration: none;
-    color: skyblue; }
-  .grid .subnavbarsection ul li {
-    list-style: none;
-    padding: 0 1rem; }
-  .grid .feat {
-    text-align: center; }
-    .grid .feat .featp {
-      margin-right: 21rem; }
-    .grid .feat h3 {
-      margin-right: 15rem; }
-    .grid .feat p {
-      margin-top: 1rem; }
-  .grid .feat2 {
-    margin-top: 5rem;
-    text-align: center; }
+    margin-left: 29rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem; }
+    .home-cta-modal .home-copyright .playstore {
+      margin-left: 2rem; }
 
-.ctamodal {
-  text-align: center;
-  margin-top: 13rem; }
-  .ctamodal .ctabtn {
+.home-ctamodal-2 {
+  margin-top: 10rem;
+  text-align: center; }
+  .home-ctamodal-2 .home-tick {
+    margin-bottom: 2rem; }
+  .home-ctamodal-2 .home-cta-btn {
     width: 10rem;
     height: 2rem;
     background: #01AAE4;
-    border-radius: 8px; }
-  .ctamodal .playstore {
-    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%); }
-  .ctamodal .ctamodal a {
-    color: #FA6866;
-    text-decoration: none; }
-  .ctamodal input[type=text] {
-    width: 12rem;
-    height: 1.5rem;
-    border-radius: 0.3rem; }
-  .ctamodal ::placeholder {
-    padding-left: 0.5rem; }
-
-.grid {
-  display: flex;
-  margin-left: 32rem;
-  margin-top: 15rem; }
-  .grid .gridp {
-    text-align: center;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
     margin-top: 2rem; }
-  .grid .ctamodal2 {
-    text-align: center;
-    margin-top: 13rem; }
-    .grid .ctamodal2 .ctabtn {
-      width: 13rem;
-      height: 2.3rem;
-      margin-top: 2rem;
-      background: #01AAE4;
-      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 8px; }
-  .grid .subnavbarsection .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
-    margin: 5rem;
-    overflow: hidden; }
-  .grid .subnavbarsection .subnav {
-    justify-self: flex-end;
+  .home-ctamodal-2 .home-copyright {
     display: flex;
-    align-items: center;
-    justify-content: center; }
-  .grid .subnavbarsection a {
-    text-decoration: none;
-    color: skyblue; }
-  .grid .subnavbarsection ul li {
-    list-style: none;
-    padding: 0 1rem; }
-  .grid .feat {
-    text-align: center; }
-    .grid .feat .featp {
-      margin-right: 21rem; }
-    .grid .feat h3 {
-      margin-right: 15rem; }
-    .grid .feat p {
-      margin-top: 1rem; }
-  .grid .feat2 {
-    margin-top: 5rem;
-    text-align: center; }
+    margin-left: 29rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem; }
+    .home-ctamodal-2 .home-copyright .playstore {
+      margin-left: 2rem; }
