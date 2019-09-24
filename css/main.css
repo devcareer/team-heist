@@ -159,7 +159,8 @@ ul {
   color: #FFFFFF;
   padding-top: 4rem;
   padding-left: 5rem;
-  padding-right: 5rem; }
+  padding-right: 5rem;
+  z-index: 1; }
 
 .careerdetails-logo {
   color: #FFFFFF; }
@@ -294,6 +295,27 @@ ul {
 
 .company-media {
   display: none; }
+
+.company-subnav-1 {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .company-subnav-1 .company-subnavimg {
+    margin-left: 10rem; }
+  .company-subnav-1 .company-subnav-ul {
+    display: flex; }
+    .company-subnav-1 .company-subnav-ul li {
+      margin-left: 1rem; }
+
+.company-subnav-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-left: 10rem; }
+
+.companysubnav2-num {
+  margin-left: 5rem;
+  margin-top: 5rem; }
 
 @media (max-width: 500px) {
   .companysection2 {
