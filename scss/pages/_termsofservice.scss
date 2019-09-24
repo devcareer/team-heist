@@ -1,0 +1,102 @@
+
+.peopleHome {
+    background: $darkGrey;
+    margin-top: -2%; 
+    padding-top: 2%;
+}
+.term {
+    margin-top: 2%;
+
+    &__header {
+        margin-top: 20%;
+        font-size: 42px;
+        line-height: 49px;
+        color: $white;
+    }
+    &__image {
+        margin-top: -250%;
+        margin-left: 40%;
+        width: 277px;
+        height: 358px;
+        margin-bottom: -300%;
+    }
+}
+.termSection {
+    @include flex(flex, row);
+    @include body($white, absolute, 8px, 3%, 3%, 100px);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+
+    &__text {
+        margin-left: 7%;   
+    }
+    &__input {
+        margin-left: 35%;
+        width: 350px;
+        border-radius: 8px;
+       
+    }
+}
+.mobileTermSection {
+    @include hidden();
+}
+
+.termText {
+    margin-top: 10%;
+    text-align: justify;
+
+    &__header {
+        @include font(42px, 49px, $darkGrey);
+    }
+
+    &__mini--header {
+        @include font(13px, 18px, $darkGrey);
+        margin-top: 5%;
+    }
+    &__paragragh {
+        @include font(16px, 22px, $midGrey);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .term {
+        
+        &__header {
+        text-align: center;
+        font-size: 22px;
+        line-height: 27px;
+
+        
+        
+    }
+}
+    .term__image {
+        @include hidden();
+}
+    .termSection{
+        @include hidden();
+    }
+    .termText {
+
+        &__header {
+            font-size: 20px;
+            line-height: 27px;
+            margin-top: 20%;
+        }
+    }
+
+    .mobileTermSection {
+        @include flex(flex, column);
+        @include body($white, absolute, 8px, -20%, 5%, 50%);
+        margin-top: 30%;
+
+        &__input {
+            width: 250px;
+            padding: 5%;
+            border-radius: 8px;
+            margin: 2%;
+        }
+    }
+    
+}
+
+ 

@@ -19,6 +19,9 @@
 @import 'pages/_about'; 
 @import 'pages/_contact'; 
 @import 'pages/_home'; 
+@import 'pages/_company';
+@import 'pages/_people';
+@import 'pages/_termsofservice';
 
 @import 'themes/_admin'; 
 @import 'themes/_themes'; 
@@ -93,7 +96,7 @@ margin-top:15rem;
 
 
 
-.container{
+.containe{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100%;

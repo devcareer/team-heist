@@ -12,3 +12,61 @@
         margin-left: 0.5rem;
     
 }
+@mixin length($width, $height, $font-size, $color) {
+        width: $width;
+        height: $height;
+        font-size: $font-size;
+        color: $color;
+}
+@mixin display($flex, $direction, $justify, $align) {
+        display: $flex;
+        flex-direction: $direction;
+        justify-content: $justify;
+        align-items: $align;
+}
+
+@mixin beauty($text-align, $font-size, $color) {
+        text-align: $text-align;
+        font-size: $font-size;
+        color: $color;  
+}
+
+@mixin hidden {
+        display: none;
+}
+@mixin position($width, $position, $height) {
+        width: $width;
+        position: $position;
+        height: $height;
+}
+@mixin flex($flex, $direction) {
+        display: $flex;
+        flex-direction: $direction;
+}
+
+@mixin image-direction($position, $height) {
+        position: $position;
+        height: $height;
+}
+
+@mixin button($background, $padding, $color, $border-radius, $margin-bottom, $border) {
+        background: $background;
+        padding: $padding;
+        color: $color;
+        border-radius: $border-radius;
+        margin-bottom: $margin-bottom;
+        border: $border;
+}
+@mixin body($background, $position, $radius, $margin, $padding, $top) {
+        background: $background;
+        position: $position;
+        border-radius: $radius;
+        margin-bottom: $margin;
+        padding:$padding;
+        top: $top;
+}
+@mixin font($font-size, $line-height, $color) {
+        font-size: $font-size;
+        line-height: $line-height;
+        color: $color;
+}

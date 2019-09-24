@@ -1,0 +1,126 @@
+.companyHome {
+    background-color: $lightGrey;
+    margin-top: -2%; 
+    padding-top: 2%;
+  }
+  
+  .companyHeader {
+    @include flex(flex, column);
+    align-items: center;
+  
+  
+    &__text {
+      @include beauty(center, 42px, $white);
+        margin-top: 10%;
+        line-height: 49px;
+    }
+    .companyButton {
+      margin-top: 2%;
+
+      &__button1 {
+        margin-top: 3%;
+        width: 280px;
+        padding: 3%;
+        border: none;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: -3px;
+        background: $white;
+        border-radius: 8px 0px 0px 8px;
+        margin-bottom: 0%;
+        
+  
+      }
+      &__button2 {
+        margin-top: 3%;
+        width: 50px;
+        border: none;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 3%;
+        background: $white;
+        border-radius: 0px 8px 8px 0px;
+      }
+    } 
+  }
+  
+  .company__image {
+    position: relative;
+    top: 10%;;
+  }
+  .company__image2 {
+    @include hidden();
+  }
+  
+  .companyBody {
+    margin-top: 10%;
+    text-align: center;
+  
+    &__header {
+      font-size: 42px;
+      line-height: 49px;
+    }
+    &__text {
+      @include font(24px, 32px, $midGrey);
+      margin-top: 2%;
+      margin-bottom: 10%;
+    }
+  }
+  .mobileCompanyBody {
+    @include hidden();
+  }
+  
+  @media screen and (max-width: 580px) {
+    .companyHeader {
+      margin-top: 15%;
+  
+      &__text {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .companyButton {
+        @include flex(flex, row);
+
+        &__button1 {
+          margin-right: 0.5%;
+          width: 200px;
+          
+        }
+        &__button2 {
+          width: 50px;
+         
+        }
+      }
+      
+      .company__image {
+        @include hidden();
+      }
+      .company__image2 {
+        display: flex;
+      }
+    }
+    .companyBody {
+      @include hidden();
+    }
+    .mobileCompanyBody {
+      @include flex(flex, column);
+      margin-top: 10%;
+  
+      &__header {
+        font-size: 24px;
+        line-height: 29px;
+      }
+      &__text {
+        @include font(14px, 19px, $midGrey);
+      }
+    }
+    .owl-theme {
+      margin-top: 20%;
+  
+      .item {
+        width: 300px;
+        margin-left: 3%;
+      }
+    }
+  }
+  

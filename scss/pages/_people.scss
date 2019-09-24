@@ -1,0 +1,48 @@
+.peopleSection{
+    margin-top: 20%;
+
+    &__header {
+        @include font(42px, 49px, $color-black);
+    }
+    &__text {
+        @include font(16px, 23px, $midGrey);
+    }
+}
+.mobilePeopleSection {
+    @include hidden();
+}
+.mobilePeopleVideo__image {
+    @include hidden();
+}
+
+.peopleVideo {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 580px) {
+    .peopleSection {
+        @include hidden();
+    }
+    .mobilePeopleSection {
+        @include flex(flex, column);
+        margin-top: 10%;
+        
+        &__header {
+            @include font(22px, 27px, $color-dim-black);
+        }
+        &__text {
+            @include font(14px, 19px, $midGrey);
+        }
+    }
+    .peopleImage {
+        @include flex(flex, row);
+    }
+
+    .peopleVideo__image {
+        @include hidden();
+    }
+    
+    .mobilePeopleVideo__image {
+        display: flex;
+    }
+}
