@@ -1,53 +1,59 @@
-.navbar{
+.navbar {
+    display: flex;
     font-size: 1.2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    margin-top: 2rem;
-
-    .container{
-       
-        @include conTain;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-right: 6rem;
-      }
-
-    .nav{
-        justify-self:flex-end;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    overflow: hidden;
+    .navbar-ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-left: 28rem;
+        width: 60vw;
+        a {
+            margin-right: 1.5rem;
+        }
+        .people-nav {
+            border-right: 0.5px solid grey;
+            margin-right: 1.5rem;
+        }
+        .send-nav {
+            border: 1px solid #01AAE4;
+            border-radius: 8px;
+            height: 2.5rem;
+            width: 16rem;
+            padding-left: 1.3rem;
+            padding-top: 0.2rem;
+        }
+        .support-nav {
+            margin-left: 0.5rem;
+            margin-bottom: 0.3rem;
+        }
     }
-
-    
-
-    .nav a{
-        padding: 0 1rem;
-    }
-
-    .headerimg{
-        margin-left: 8rem;
-    }
-
-    .header-button{
-        border: 1px solid #01AAE4; 
-        border-radius: 8px;
-}
-
-.people{
-    border-right: 0.5px solid grey;
-    
-}
-.supporticon{
-    @include supportIcon();
-}
-
-
-@media(max-width:500px){
-    .nav{
-       display: none;
+    @media(max-width:500px) {
+        .navbar-ul {
+            display: none;
+        }
+        .headerimg {
+            display: none;
+        }
     }
 }
 
-
+.media-header {
+    display: none;
+    @media(max-width: 500px) {
+        display: block;
+        background: $lightGrey;
+        width: 100vw;
+        .media-header1 {
+            margin-left: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .media-header2 {
+            margin-left: 7rem;
+        }
+        .media-header3 {
+            margin-left: 12rem;
+            margin-bottom: 0.2rem;
+        }
+    }
 }
