@@ -3,6 +3,9 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10rem;
     margin-left: 10rem;
+
+    
+
     .hide-link {
         display: none;
     }
@@ -45,6 +48,33 @@
     display: none
 }
 
+.company-subnav-1{
+    margin-top:5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+.company-subnavimg{
+    margin-left:10rem;
+}
+    .company-subnav-ul{
+        display:flex;
+        li{
+            margin-left:1rem;
+        }
+    }
+}
+
+.company-subnav-2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:5rem;
+    margin-left:10rem;
+}
+
+.companysubnav2-num{
+    
+    margin-left:5rem;
+    margin-top:5rem;
+}
 @media(max-width:500px) {
     .companysection2 {
         display: flex;
@@ -94,3 +124,4 @@
         }
     }
 }
+
