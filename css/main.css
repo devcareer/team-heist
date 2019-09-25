@@ -119,11 +119,14 @@ ul {
   margin-top: 3rem;
   margin-left: 5rem;
   overflow: hidden;
-  background-color: #878787; }
+  background-color: #FA6866; }
   .navbar .header-b-back {
     display: flex;
     margin-left: 1rem;
     margin-top: 1rem; }
+    .navbar .header-b-back .header-back-img {
+      border: thin solid white;
+      padding: 0.3rem; }
   .navbar .headerimg {
     margin-top: 1rem; }
   .navbar .navbar-ul {
