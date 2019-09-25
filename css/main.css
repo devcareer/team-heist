@@ -109,12 +109,17 @@ ul {
   .navbar .navbar-ul {
     display: flex;
     margin-left: 28rem;
-    width: 60vw; }
+    width: 60vw;
+    padding: 0; }
     .navbar .navbar-ul a {
-      margin-right: 1.5rem; }
+      margin-right: 1.5rem;
+      text-decoration: none;
+      color: #01AAE4; }
     .navbar .navbar-ul .people-nav {
       border-right: 0.5px solid grey;
-      margin-right: 1.5rem; }
+      margin-right: 1.5rem;
+      padding: 0;
+      height: 1.5rem; }
     .navbar .navbar-ul .send-nav {
       border: 1px solid #01AAE4;
       border-radius: 8px;

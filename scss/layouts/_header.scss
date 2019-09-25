@@ -7,13 +7,19 @@
     .navbar-ul {
         display: flex;
         margin-left: 28rem;
-        width: 60vw;
+        width:60vw;
+        padding:0;
+        
         a {
             margin-right: 1.5rem;
+            text-decoration: none;
+            color:$skyBlue;
         }
         .people-nav {
             border-right: 0.5px solid grey;
             margin-right: 1.5rem;
+            padding:0;
+            height: 1.5rem;
         }
         .send-nav {
             border: 1px solid #01AAE4;
