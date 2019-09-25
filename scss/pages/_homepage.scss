@@ -1,47 +1,66 @@
-.container {
+.restriction {
     overflow: hidden;
 }
 
 .sub-navbar1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 3rem;
+   
     position: relative;
-    z-index: 2;
+    z-index:2;
+   background:white;
+   
     .sub-nav {
         display: flex;
         li {
-            margin-right: 1rem;
+            margin-right: 2rem;
+        }
+        .deals{
+            margin-right:2rem;
         }
         .sub-navbar-btn {
-            border: 1px solid #01AAE4;
-            border-radius: 8px;
+           padding-left: 3rem;
+            border-left: thin solid grey;
+           a{
+               text-decoration:none;
+               color: $skyBlue;
+           }
         }
     }
 }
 
-.homepages-images {
-    position: relative;
-    margin-left: 15rem;
-    z-index: 1;
-    top: -23rem;
-    .homepages-images1 {
-        margin-bottom: 50rem;
+.homepages-images-main {
+    display:flex;
+    
+    margin-left: 23rem;
+    
+
+    .homepages-images{
+        display: flex;
+        top: -22rem;
+        position: relative;
+        z-index: 1;
+        
     }
-    .homepages-images2 {
-        margin-bottom: 22rem;
-    }
-    .homepages-images3 {
-        margin-bottom: 30rem;
-    }
+   
+
+
+  
 }
 
 .subnav-feat {
-    margin-left: 25rem;
-    margin-top: -40rem;
+   margin-left: 25rem;
+  margin-top: -15rem;
+  .subnav-feat-p{
+margin-bottom:0.5rem;
+  }
+  h3{
+    margin-bottom:0.5rem;
+  }
     .feat2 {
         margin-left: -20rem;
         margin-top: 5rem;
+        
         img {
             margin-left: 4rem;
         }
@@ -51,10 +70,20 @@
 .home-cta-modal {
     margin-top: 10rem;
     text-align: center;
+    .gridp{
+        a{
+            text-decoration: none;
+            color:$skyBlue;
+        }
+    }
+    
+    .home-tick {
+        margin-bottom: 2rem;
+    }
     input[type] {
-        width: 15rem;
-        height: 2rem;
-        border-radius: 2rem;
+        width:13rem;
+        height: 2.2rem;
+        border-radius: 0.3rem;
     }
     .home-cta-btn {
         width: 10rem;
@@ -63,6 +92,7 @@
         border: none;
         border-radius: 0.5rem;
         color: white;
+        margin-top: 2rem;
     }
     h3 {
         margin-bottom: 1rem;
@@ -80,33 +110,57 @@
         margin-top: 10rem;
         margin-bottom: 2rem;
         .playstore {
-            margin-left: 2rem;
+           margin-top:-1rem;
+           margin-right:-0.5rem;
         }
-    }
-}
 
-.home-ctamodal-2 {
-    margin-top: 10rem;
-    text-align: center;
-    .home-tick {
-        margin-bottom: 2rem;
-    }
-    .home-cta-btn {
-        width: 10rem;
-        height: 2rem;
-        background: $skyBlue;
-        border: none;
-        border-radius: 0.5rem;
-        color: white;
-        margin-top: 2rem;
-    }
-    .home-copyright {
-        display: flex;
-        margin-left: 29rem;
-        margin-top: 10rem;
-        margin-bottom: 2rem;
-        .playstore {
-            margin-left: 2rem;
+        
         }
     }
-}
+
+    .home-ctamodal-2 {
+        margin-top: 10rem;
+        text-align: center;
+        
+        
+        .home-tick {
+            margin-bottom: 2rem;
+        }
+        
+       
+        .home-cta-btn {
+            width: 10rem;
+            height: 2rem;
+            background: $skyBlue;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            margin-top: 2rem;
+        }
+        h3 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .cta-modal_x {
+            margin-left: 78rem;
+            margin-bottom: 10rem;
+        }
+        .home-copyright {
+            display: flex;
+            margin-left: 29rem;
+            margin-top: 10rem;
+            margin-bottom: 2rem;
+            .playstore {
+               margin-top:-1rem;
+               margin-right:-0.5rem;
+            }
+    
+            
+            }
+        }
+    
+    
+
+

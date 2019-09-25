@@ -354,38 +354,44 @@ ul {
     .company-media .company-media-img {
       margin-bottom: 1rem; } }
 
-.container {
+.restriction {
   overflow: hidden; }
 
 .sub-navbar1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 3rem;
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  background: white; }
   .sub-navbar1 .sub-nav {
     display: flex; }
     .sub-navbar1 .sub-nav li {
-      margin-right: 1rem; }
+      margin-right: 2rem; }
+    .sub-navbar1 .sub-nav .deals {
+      margin-right: 2rem; }
     .sub-navbar1 .sub-nav .sub-navbar-btn {
-      border: 1px solid #01AAE4;
-      border-radius: 8px; }
+      padding-left: 3rem;
+      border-left: thin solid grey; }
+      .sub-navbar1 .sub-nav .sub-navbar-btn a {
+        text-decoration: none;
+        color: #01AAE4; }
 
-.homepages-images {
-  position: relative;
-  margin-left: 15rem;
-  z-index: 1;
-  top: -23rem; }
-  .homepages-images .homepages-images1 {
-    margin-bottom: 50rem; }
-  .homepages-images .homepages-images2 {
-    margin-bottom: 22rem; }
-  .homepages-images .homepages-images3 {
-    margin-bottom: 30rem; }
+.homepages-images-main {
+  display: flex;
+  margin-left: 23rem; }
+  .homepages-images-main .homepages-images {
+    display: flex;
+    top: -22rem;
+    position: relative;
+    z-index: 1; }
 
 .subnav-feat {
   margin-left: 25rem;
-  margin-top: -40rem; }
+  margin-top: -15rem; }
+  .subnav-feat .subnav-feat-p {
+    margin-bottom: 0.5rem; }
+  .subnav-feat h3 {
+    margin-bottom: 0.5rem; }
   .subnav-feat .feat2 {
     margin-left: -20rem;
     margin-top: 5rem; }
@@ -395,17 +401,23 @@ ul {
 .home-cta-modal {
   margin-top: 10rem;
   text-align: center; }
+  .home-cta-modal .gridp a {
+    text-decoration: none;
+    color: #01AAE4; }
+  .home-cta-modal .home-tick {
+    margin-bottom: 2rem; }
   .home-cta-modal input[type] {
-    width: 15rem;
-    height: 2rem;
-    border-radius: 2rem; }
+    width: 13rem;
+    height: 2.2rem;
+    border-radius: 0.3rem; }
   .home-cta-modal .home-cta-btn {
     width: 10rem;
     height: 2rem;
     background: #01AAE4;
     border: none;
     border-radius: 0.5rem;
-    color: white; }
+    color: white;
+    margin-top: 2rem; }
   .home-cta-modal h3 {
     margin-bottom: 1rem; }
   .home-cta-modal p {
@@ -419,7 +431,8 @@ ul {
     margin-top: 10rem;
     margin-bottom: 2rem; }
     .home-cta-modal .home-copyright .playstore {
-      margin-left: 2rem; }
+      margin-top: -1rem;
+      margin-right: -0.5rem; }
 
 .home-ctamodal-2 {
   margin-top: 10rem;
@@ -434,10 +447,18 @@ ul {
     border-radius: 0.5rem;
     color: white;
     margin-top: 2rem; }
+  .home-ctamodal-2 h3 {
+    margin-bottom: 1rem; }
+  .home-ctamodal-2 p {
+    margin-bottom: 1rem; }
+  .home-ctamodal-2 .cta-modal_x {
+    margin-left: 78rem;
+    margin-bottom: 10rem; }
   .home-ctamodal-2 .home-copyright {
     display: flex;
     margin-left: 29rem;
     margin-top: 10rem;
     margin-bottom: 2rem; }
     .home-ctamodal-2 .home-copyright .playstore {
-      margin-left: 2rem; }
+      margin-top: -1rem;
+      margin-right: -0.5rem; }

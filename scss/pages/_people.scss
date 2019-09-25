@@ -1,0 +1,10 @@
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    
+
+.item:nth-child(){
+    grid-row: 2/4;
+}
+
+    }
