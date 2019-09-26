@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ overflow: hidden;
+//  max-width: 100%;
+
+  @include for-phone-only(){
+    
+  }
+}
+.main1 {
+
+ 
+
+.blue_cloud{
+    z-index: -1;
+    width: 99.95vw;
+    overflow-x: hidden;
+    position: relative;
+    top: 50px;
+
+    @include for-phone-only{
+      display: none;
+    }
+}
+.w404_img {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+
+    .w404_img__txt {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+
+       .w404__img--txtt{
+        font-size: 440%;
+        font-weight: 900;
+        width: 75%;
+        margin: 0 -80px 39px 0;
+        line-height: 1.2;
+        word-spacing: 10px;
+        color: rgba(0,0,0, 0.7);
+       }
+      
+       .w404__img--txttt {
+          width: 65%;
+          font-size: 42px;
+          font-weight: 200;
+          color: lightgrey;
+          line-height: 1.6;
+          margin: 4px 10px 10% -60px;
+
+          a{
+              text-decoration: none;
+              color: aqua
+          }
+       }
+       
+    }
+    .img--space_rabbit {
+       margin-right: 10%;
+    }
+
+    @include for-phone-only(){
+      display: none;
+    }
+}
+}
+
+.w404_mob{
+   display: none;
+
+   a{
+     color: aqua;
+     text-decoration: none;
+
+   }
+  @include for-phone-only(){
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .w404_mob--txt{
+
+    @include for-phone-only(){
+      text-align: center;
+      margin: 15px;
+    }
+    a{
+      @include for-phone-only(){
+        color: aqua;
+      }
+      
+    }
+  }
+  .w404_mob--txtt{
+    @include for-phone-only(){
+      width: 98%;
+      margin: 0 auto;
+      text-align: center;
+      margin: 15px 0 15px 0;
+      line-height: 1.2;
+      color: lightgrey;
+
+    }
+  }
+  .space_rabbit--mob{
+    @include for-phone-only(){
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
+}

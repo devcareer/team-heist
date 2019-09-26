@@ -29,6 +29,94 @@ ul {
   box-sizing: border-box; }
 
 body {
+  overflow: hidden; }
+
+.main1 .blue_cloud {
+  z-index: -1;
+  width: 99.95vw;
+  overflow-x: hidden;
+  position: relative;
+  top: 50px; }
+  @media (max-width: 599px) {
+    .main1 .blue_cloud {
+      display: none; } }
+
+.main1 .w404_img {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  position: absolute;
+  top: 0; }
+  .main1 .w404_img .w404_img__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+    .main1 .w404_img .w404_img__txt .w404__img--txtt {
+      font-size: 440%;
+      font-weight: 900;
+      width: 75%;
+      margin: 0 -80px 39px 0;
+      line-height: 1.2;
+      word-spacing: 10px;
+      color: rgba(0, 0, 0, 0.7); }
+    .main1 .w404_img .w404_img__txt .w404__img--txttt {
+      width: 65%;
+      font-size: 42px;
+      font-weight: 200;
+      color: lightgrey;
+      line-height: 1.6;
+      margin: 4px 10px 10% -60px; }
+      .main1 .w404_img .w404_img__txt .w404__img--txttt a {
+        text-decoration: none;
+        color: aqua; }
+  .main1 .w404_img .img--space_rabbit {
+    margin-right: 10%; }
+  @media (max-width: 599px) {
+    .main1 .w404_img {
+      display: none; } }
+
+.w404_mob {
+  display: none; }
+  .w404_mob a {
+    color: aqua;
+    text-decoration: none; }
+  @media (max-width: 599px) {
+    .w404_mob {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto; } }
+  @media (max-width: 599px) {
+    .w404_mob .w404_mob--txt {
+      text-align: center;
+      margin: 15px; } }
+  @media (max-width: 599px) {
+    .w404_mob .w404_mob--txt a {
+      color: aqua; } }
+  @media (max-width: 599px) {
+    .w404_mob .w404_mob--txtt {
+      width: 98%;
+      margin: 0 auto;
+      text-align: center;
+      margin: 15px 0 15px 0;
+      line-height: 1.2;
+      color: lightgrey; } }
+  @media (max-width: 599px) {
+    .w404_mob .space_rabbit--mob {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 15px; } }
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
   overflow-x: hidden; }
 
 .main {
