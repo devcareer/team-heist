@@ -99,6 +99,8 @@
 
       &__text {
         font-weight: bold;
+        font-size: 10px;
+        text-align: center;
     }
   
   }
@@ -390,9 +392,9 @@
             border: none;
       
         }
-        &__text{
+        .features1__text{
             text-align: center;
-            font-size: 10px;
+            font-size: 8px;
             width: 100px;
             margin-top: 10%;
             margin-left: -10%;
