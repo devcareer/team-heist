@@ -610,6 +610,168 @@ a {
         .container div h5 {
           text-align: left; } }
 
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+#job-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-bottom: 0px; }
+  @media screen and (max-width: 767px) {
+    #job-flex-container {
+      flex-direction: column;
+      width: 60%; } }
+  @media screen and (max-width: 767px) {
+    #job-flex-container .flex-item {
+      margin-left: auto;
+      margin-right: auto; } }
+  #job-flex-container .flex-item img#logo {
+    margin-bottom: 70px; }
+    @media screen and (max-width: 767px) {
+      #job-flex-container .flex-item img#logo {
+        margin-bottom: 10px; } }
+  #job-flex-container .flex-item h2 {
+    margin-bottom: 0px; }
+  #job-flex-container .flex-item #image-alone {
+    margin-bottom: -7px;
+    padding: 0px; }
+    @media screen and (max-width: 767px) {
+      #job-flex-container .flex-item #image-alone {
+        display: none; } }
+
+#job-form-container {
+  background-color: #fafafa;
+  padding-left: 10%;
+  padding-top: 30px;
+  color: #878787;
+  font-weight: bold; }
+  @media screen and (max-width: 767px) {
+    #job-form-container {
+      padding-left: 0px; } }
+  #job-form-container h2 {
+    margin-bottom: 55px; }
+    @media screen and (max-width: 767px) {
+      #job-form-container h2 {
+        text-align: center;
+        margin-bottom: 30px; } }
+  #job-form-container form {
+    width: 55%;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd6d6; }
+    @media screen and (max-width: 767px) {
+      #job-form-container form {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%; } }
+    @media screen and (max-width: 1200px) {
+      #job-form-container form {
+        width: 80%; } }
+    #job-form-container form .flex-form {
+      display: flex;
+      width: 100%;
+      justify-self: flex-start; }
+      @media screen and (max-width: 767px) {
+        #job-form-container form .flex-form {
+          flex-direction: column; } }
+      #job-form-container form .flex-form .flex-item {
+        height: 30px;
+        margin-bottom: 20px; }
+      #job-form-container form .flex-form .flex-item:nth-child(1) {
+        padding-top: 8px;
+        width: 35%; }
+        @media screen and (max-width: 767px) {
+          #job-form-container form .flex-form .flex-item:nth-child(1) {
+            width: 80%;
+            margin: 0 auto 0 auto;
+            text-align: center; } }
+      #job-form-container form .flex-form .flex-item:nth-child(2) {
+        width: 70%;
+        border: 1px solid #ddd6d6; }
+        @media screen and (max-width: 767px) {
+          #job-form-container form .flex-form .flex-item:nth-child(2) {
+            width: 80%;
+            margin: 0 auto 10px auto; } }
+      #job-form-container form .flex-form #resume, #job-form-container form .flex-form #linkled {
+        border: none; }
+      #job-form-container form .flex-form #resume #resume-first {
+        display: flex;
+        padding-left: 10px;
+        width: 50%;
+        background-color: #f0f0f0;
+        height: 100%;
+        border: 1px solid #ddd6d6; }
+        @media screen and (max-width: 767px) {
+          #job-form-container form .flex-form #resume #resume-first {
+            width: 100%; } }
+        #job-form-container form .flex-form #resume #resume-first .fa {
+          align-self: center;
+          margin-right: 10px; }
+        #job-form-container form .flex-form #resume #resume-first p {
+          font-weight: normal;
+          align-self: center;
+          font-size: 14px; }
+      #job-form-container form .flex-form #linkled {
+        display: flex; }
+        @media screen and (max-width: 767px) {
+          #job-form-container form .flex-form #linkled {
+            flex-direction: column; } }
+        #job-form-container form .flex-form #linkled #linkled-first {
+          display: flex;
+          padding-left: 10px;
+          width: 80%;
+          background-color: #f0f0f0;
+          height: 100%;
+          border: 1px solid #ddd6d6; }
+          @media screen and (max-width: 767px) {
+            #job-form-container form .flex-form #linkled #linkled-first {
+              width: 100%; } }
+          #job-form-container form .flex-form #linkled #linkled-first .fa {
+            color: blue;
+            align-self: center;
+            margin-right: 10px; }
+          #job-form-container form .flex-form #linkled #linkled-first p {
+            font-weight: normal;
+            align-self: center;
+            font-size: 14px; }
+        #job-form-container form .flex-form #linkled #linkled-second {
+          padding-left: 10px; }
+          #job-form-container form .flex-form #linkled #linkled-second p {
+            font-size: 11px; }
+          #job-form-container form .flex-form #linkled #linkled-second a {
+            color: #878787;
+            text-decoration: underline; }
+  #job-form-container #button {
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto; }
+    #job-form-container #button button {
+      height: 30px;
+      width: 58%;
+      border-radius: 8px;
+      color: #ffffff;
+      background-color: #01AAE4;
+      border: none;
+      margin: 50px auto 145px auto;
+      margin-top: 50px;
+      margin-bottom: 145px; }
+      @media screen and (max-width: 1200px) {
+        #job-form-container #button button {
+          margin-left: 20%; } }
+      @media screen and (max-width: 767px) {
+        #job-form-container #button button {
+          width: 100%;
+          margin-left: auto;
+          margin-bottom: 40px;
+          margin-top: 15px; } }
+
 .ctamodal {
   text-align: center;
   margin-top: 13rem; }
