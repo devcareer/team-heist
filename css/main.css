@@ -183,7 +183,8 @@ ul {
         margin-bottom: 0.2rem; } }
 
 .careerdetails {
-  display: flex; }
+  display: flex;
+  overflow: hidden; }
   @media (max-width: 500px) {
     .careerdetails {
       display: none; } }
@@ -211,25 +212,28 @@ ul {
     right: -9rem; }
 
 .career-border {
-  border-bottom: thin solid white; }
+  border-bottom: thin solid white;
+  padding-bottom: 2rem; }
 
 .careerdet-p1 {
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   padding-bottom: 2rem; }
 
 .careerdetails-item2 {
   width: 50vw;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  z-index: 10; }
+  background: white;
+  z-index: 2; }
   .careerdetails-item2 a > i {
-    color: #FFFFFF;
-    background: #01AAE4;
+    color: #01AAE4;
+    background: #FFFFFF;
+    border: thin solid #01AAE4;
     border-radius: 3rem;
     padding: 0.5rem;
     margin-right: 1rem;
-    margin-top: 1rem; }
+    margin-top: 1.5rem; }
   .careerdetails-item2 p {
     margin-bottom: 2rem; }
   .careerdetails-item2 h3 {
@@ -241,7 +245,8 @@ ul {
 .career-det-flex {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0.1rem; }
+  grid-gap: 0.1rem;
+  margin-top: 1rem; }
   .career-det-flex .career-button {
     background-color: skyblue;
     border: none;
