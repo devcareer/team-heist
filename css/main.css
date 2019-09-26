@@ -11,7 +11,7 @@ body {
   font-weight: 100;
   line-height: 1.6; }
 
-h1, h2, h3, h4, section.container .container-item p {
+h1, h2, h3, h4, #second-career-containers .second-career-item p {
   line-height: 1.3; }
 
 a {
@@ -151,74 +151,6 @@ ul {
     text-align: center; }
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway" "sans-serif"; }
-
-section:nth-child(1) {
-  background-color: #fafafa;
-  padding-top: 150px;
-  padding-bottom: 100px; }
-  @media screen and (max-width: 600px) {
-    section:nth-child(1) {
-      display: none; } }
-  section:nth-child(1) img {
-    position: absolute;
-    left: 950px;
-    top: 75px; }
-  section:nth-child(1) .container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    width: 80%;
-    background-color: #f6f6f6;
-    border: 1px dashed black;
-    border-radius: 8px;
-    padding: 40px;
-    padding-bottom: 50px; }
-    section:nth-child(1) .container .container-item h4, section:nth-child(1) section.container .container-item p {
-      font-size: 22px;
-      line-height: 22px;
-      margin-bottom: 10px;
-      color: #505050;
-      font-weight: 900; }
-    section:nth-child(1) .container .container-item a {
-      font-size: 16px;
-      color: #01AAE4; }
-    section:nth-child(1) .container .container-item i {
-      margin-top: 10px; }
-
-section.container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-between;
-  width: 80%;
-  padding: 40px 0;
-  position: relative; }
-  @media screen and (max-width: 600px) {
-    section.container {
-      flex-direction: column; } }
-  section.container .container-item {
-    width: 27%;
-    text-align: left; }
-    @media screen and (max-width: 600px) {
-      section.container .container-item {
-        width: 90%;
-        margin-bottom: 40px; } }
-    section.container .container-item h4, section.container .container-item p {
-      font-size: 22px;
-      line-height: 22px;
-      margin-bottom: 10px;
-      color: #505050;
-      font-size: 18px; }
-    section.container .container-item p {
-      color: #878787;
-      font-weight: normal;
-      font-size: 16px; }
-
-* {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px; }
@@ -309,7 +241,8 @@ section.container {
     background-color: #01AAE4;
     border: none;
     margin-left: 18%;
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     @media screen and (max-width: 767px) {
       #form-container button {
         width: 80%;
@@ -510,17 +443,17 @@ a {
   color: #ffffff;
   margin-right: 25px; }
 
-main#company-second-section {
+main {
   background-color: #ffffff;
   font-family: "Raleway" "sans-serif"; }
-  main#company-second-section #section-1 {
+  main #section-1 {
     width: 100%;
     position: relative;
     margin-left: auto;
     margin-right: auto; }
-    main#company-second-section #section-1 img#banner {
+    main #section-1 img#banner {
       width: 100%; }
-    main#company-second-section #section-1 .container-item {
+    main #section-1 .container-item {
       position: absolute;
       width: 23%;
       top: 174px;
@@ -528,58 +461,58 @@ main#company-second-section {
       text-align: left;
       color: #ffffff; }
       @media screen and (max-width: 1300px) {
-        main#company-second-section #section-1 .container-item {
+        main #section-1 .container-item {
           width: 50%;
           left: 50px;
           top: 90px;
           padding-right: 50px; } }
       @media screen and (max-width: 1200px) {
-        main#company-second-section #section-1 .container-item {
+        main #section-1 .container-item {
           width: 70%;
           left: 50px;
           top: 20px;
           padding-right: 50px; } }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-1 .container-item {
+        main #section-1 .container-item {
           width: 80%; } }
-      main#company-second-section #section-1 .container-item p {
+      main #section-1 .container-item p {
         margin-bottom: 30px; }
         @media screen and (max-width: 1200px) {
-          main#company-second-section #section-1 .container-item p {
+          main #section-1 .container-item p {
             margin-bottom: 5px; } }
         @media screen and (max-width: 767px) {
-          main#company-second-section #section-1 .container-item p {
+          main #section-1 .container-item p {
             margin-bottom: 20px;
             font-size: 13px; } }
-      main#company-second-section #section-1 .container-item p:nth-child(1) {
+      main #section-1 .container-item p:nth-child(1) {
         font-size: 13px;
         line-height: 18px;
         opacity: 0.5; }
-        main#company-second-section #section-1 .container-item p:nth-child(1) span {
+        main #section-1 .container-item p:nth-child(1) span {
           margin-left: 15px;
           cursor: pointer; }
-          main#company-second-section #section-1 .container-item p:nth-child(1) span:active {
+          main #section-1 .container-item p:nth-child(1) span:active {
             opacity: 1; }
-      main#company-second-section #section-1 .container-item h1 {
+      main #section-1 .container-item h1 {
         font-size: 60px;
         line-height: 60px;
         margin: 20px 0; }
         @media screen and (max-width: 767px) {
-          main#company-second-section #section-1 .container-item h1 {
+          main #section-1 .container-item h1 {
             display: none;
             font-size: 30px;
             margin: 5px 0; } }
-  main#company-second-section #section-2 h2 {
+  main #section-2 h2 {
     color: #000000;
     font-size: 42px;
     line-height: 49px;
     margin-left: 10%;
     margin-top: 110px; }
     @media screen and (max-width: 767px) {
-      main#company-second-section #section-2 h2 {
+      main #section-2 h2 {
         margin-top: 0px;
         font-size: 25px; } }
-  main#company-second-section #section-2 .slider {
+  main #section-2 .slider {
     display: flex;
     width: 80%;
     margin-top: 80px;
@@ -589,69 +522,69 @@ main#company-second-section {
     padding-bottom: 70px;
     border-bottom: 1px solid #C4C4C4; }
     @media screen and (max-width: 767px) {
-      main#company-second-section #section-2 .slider {
+      main #section-2 .slider {
         display: none;
         flex-direction: column;
         margin-top: 5px; } }
-    main#company-second-section #section-2 .slider #i2, main#company-second-section #section-2 .slider #i1, main#company-second-section #section-2 .slider #i3 {
+    main #section-2 .slider #i2, main #section-2 .slider #i1, main #section-2 .slider #i3 {
       display: none; }
-    main#company-second-section #section-2 .slider .flex-item-1 {
+    main #section-2 .slider .flex-item-1 {
       width: 30%;
       background: #ffffff;
       box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
       border-radius: 8px;
       padding-bottom: 70px; }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-2 .slider .flex-item-1 {
+        main #section-2 .slider .flex-item-1 {
           width: 85%;
           margin-left: auto;
           margin-right: auto;
           margin-bottom: 18px; } }
-      main#company-second-section #section-2 .slider .flex-item-1 img {
+      main #section-2 .slider .flex-item-1 img {
         width: 100%; }
-      main#company-second-section #section-2 .slider .flex-item-1 h3 {
+      main #section-2 .slider .flex-item-1 h3 {
         color: #555555;
         margin: 30px 40px 5px 30px;
         font-size: 18px;
         line-height: 22px; }
-      main#company-second-section #section-2 .slider .flex-item-1 p {
+      main #section-2 .slider .flex-item-1 p {
         color: #878787;
         margin-left: 30px;
         margin-right: 40px;
         font-size: 16px;
         line-height: 22px; }
   @media screen and (max-width: 767px) {
-    main#company-second-section #section-2 #flex-container-1 {
+    main #section-2 #flex-container-1 {
       display: block;
       color: black;
       position: relative;
       height: 365px;
       width: 75%;
       border-bottom: 1px solid #C4C4C4; }
-      main#company-second-section #section-2 #flex-container-1 #i2, main#company-second-section #section-2 #flex-container-1 #i1, main#company-second-section #section-2 #flex-container-1 #i3 {
+      main #section-2 #flex-container-1 #i2, main #section-2 #flex-container-1 #i1, main #section-2 #flex-container-1 #i3 {
         display: none; }
-      main#company-second-section #section-2 #flex-container-1 #i1:checked ~ #first,
-      main#company-second-section #section-2 #flex-container-1 #i2:checked ~ #second,
-      main#company-second-section #section-2 #flex-container-1 #i3:checked ~ #third {
+      main #section-2 #flex-container-1 #i1:checked ~ #first,
+      main #section-2 #flex-container-1 #i2:checked ~ #second,
+      main #section-2 #flex-container-1 #i3:checked ~ #third {
         z-index: 9; }
-      main#company-second-section #section-2 #flex-container-1 .slide-content {
+      main #section-2 #flex-container-1 .slide-content {
         position: absolute;
         width: 90%;
         height: 90%;
         z-index: -1; }
-        main#company-second-section #section-2 #flex-container-1 .slide-content .pre {
+        main #section-2 #flex-container-1 .slide-content .pre {
           color: #000000;
           position: absolute;
           left: 90px;
           top: 300px;
           cursor: pointer; }
-        main#company-second-section #section-2 #flex-container-1 .slide-content .next {
+        main #section-2 #flex-container-1 .slide-content .next {
           color: #000000;
           position: absolute;
           right: 90px;
           top: 300px;
           cursor: pointer; } }
-  main#company-second-section #section-3 {
+  main #section-3 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -661,36 +594,36 @@ main#company-second-section {
     padding-bottom: 40px;
     position: relative; }
     @media screen and (max-width: 767px) {
-      main#company-second-section #section-3 {
+      main #section-3 {
         padding-top: 50px;
         flex-direction: column; } }
-    main#company-second-section #section-3 .container-item {
+    main #section-3 .container-item {
       width: 27%;
       text-align: left; }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-3 .container-item {
+        main #section-3 .container-item {
           width: 90%;
           margin-bottom: 40px; } }
-      main#company-second-section #section-3 .container-item h4, main#company-second-section #section-3 section.container .container-item p, section.container main#company-second-section #section-3 .container-item p {
+      main #section-3 .container-item h4, main #section-3 .container-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item main #section-3 .container-item p {
         margin-top: 20px;
         color: #555555;
         font-size: 18px;
         line-height: 22px;
         margin-bottom: 10px; }
-      main#company-second-section #section-3 .container-item p {
+      main #section-3 .container-item p {
         color: #878787;
         font-size: 16px;
         line-height: 22px;
         margin-right: 40px; }
-  main#company-second-section #section-4 {
+  main #section-4 {
     background: linear-gradient(180deg, #F6F6F6 0.3%, rgba(250, 250, 250, 0) 64.6%);
     clip-path: polygon(48% 2%, 79% 0, 100% 2%, 100% 100%, 48% 100%, 0 100%, 0 63%, 0 0, 22% 2%); }
-    main#company-second-section #section-4 .mobile-form {
+    main #section-4 .mobile-form {
       display: none; }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-4 .mobile-form {
+        main #section-4 .mobile-form {
           display: block; }
-          main#company-second-section #section-4 .mobile-form h3 {
+          main #section-4 .mobile-form h3 {
             color: #555555;
             text-align: left;
             font-size: 22px;
@@ -699,7 +632,7 @@ main#company-second-section {
             padding-right: 70px;
             margin: 20px auto;
             padding-top: 60px; }
-          main#company-second-section #section-4 .mobile-form form {
+          main #section-4 .mobile-form form {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -710,28 +643,28 @@ main#company-second-section {
             box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
             border-radius: 8px;
             padding: 20px 0; }
-            main#company-second-section #section-4 .mobile-form form .form-item {
+            main #section-4 .mobile-form form .form-item {
               width: 90%;
               margin: 10px auto;
               height: 30px;
               border: 0.5px solid #878787;
               border-radius: 8px;
               padding-left: 15px; }
-            main#company-second-section #section-4 .mobile-form form .form-item:last-child {
+            main #section-4 .mobile-form form .form-item:last-child {
               background: #01AAE4;
               box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
               border-radius: 8px;
               border: none; } }
-    main#company-second-section #section-4 h2 {
+    main #section-4 h2 {
       width: 30%;
       margin: 50px 0 90px 10%;
       padding-top: 90px;
       padding-bottom: 60px;
       color: #555555; }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-4 h2 {
+        main #section-4 h2 {
           display: none; } }
-    main#company-second-section #section-4 .flex-container-3 {
+    main #section-4 .flex-container-3 {
       background: linear-gradient(180deg, #F6F6F6 0.3%, rgba(250, 250, 250, 0) 64.6%);
       border-top: 2px solid #f6f6f6;
       border-right: 2px solid #f6f6f6;
@@ -742,36 +675,122 @@ main#company-second-section {
       width: 80%;
       flex-wrap: wrap; }
       @media screen and (max-width: 767px) {
-        main#company-second-section #section-4 .flex-container-3 {
+        main #section-4 .flex-container-3 {
           display: none; } }
-      main#company-second-section #section-4 .flex-container-3 .flex-item-3 {
+      main #section-4 .flex-container-3 .flex-item-3 {
         width: 25%;
         padding-left: 33px;
         border-bottom: 2px solid #f6f6f6;
         border-left: 2px solid #f6f6f6; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3 img {
+        main #section-4 .flex-container-3 .flex-item-3 img {
           margin-top: 40px; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3 h3 {
+        main #section-4 .flex-container-3 .flex-item-3 h3 {
           color: #444444;
           font-size: 18px;
           margin-top: 30px; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3 h5 {
+        main #section-4 .flex-container-3 .flex-item-3 h5 {
           font-size: 13px;
           color: #8C939C; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3 p {
+        main #section-4 .flex-container-3 .flex-item-3 p {
           margin-bottom: 40px;
           color: #8C939C;
           font-size: 10px;
           margin-top: 75px; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3:hover {
+        main #section-4 .flex-container-3 .flex-item-3:hover {
           background-color: #ffffff;
           box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1); }
-          main#company-second-section #section-4 .flex-container-3 .flex-item-3:hover h3, main#company-second-section #section-4 .flex-container-3 .flex-item-3:hover p {
+          main #section-4 .flex-container-3 .flex-item-3:hover h3, main #section-4 .flex-container-3 .flex-item-3:hover p {
             color: #01AAE4; }
-      main#company-second-section #section-4 .flex-container-3 .flex-item-3:nth-child(8) {
+      main #section-4 .flex-container-3 .flex-item-3:nth-child(8) {
         background-color: #F6F6F6; }
-        main#company-second-section #section-4 .flex-container-3 .flex-item-3:nth-child(8) img {
+        main #section-4 .flex-container-3 .flex-item-3:nth-child(8) img {
           margin-top: 60px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" "sans-serif"; }
+
+#first-career-container {
+  background-color: #fafafa;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  #first-career-container img {
+    position: absolute;
+    right: 250px;
+    top: 81px; }
+    @media screen and (max-width: 767px) {
+      #first-career-container img {
+        display: none; } }
+    @media screen and (max-width: 940px) {
+      #first-career-container img {
+        right: 150px; } }
+  #first-career-container .first-career-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #f6f6f6;
+    border: 1px dashed black;
+    border-radius: 8px;
+    padding: 40px;
+    padding-bottom: 50px; }
+    #first-career-container .first-career-item #first-career-item-1 {
+      width: 60%; }
+      @media screen and (max-width: 767px) {
+        #first-career-container .first-career-item #first-career-item-1 {
+          width: 90%; } }
+    #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      color: #505050;
+      font-weight: 900;
+      font-size: 19px; }
+      @media screen and (max-width: 1450px) {
+        #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+          font-size: 14px; } }
+      @media screen and (max-width: 900px) {
+        #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+          font-size: 12px; } }
+    #first-career-container .first-career-item .career-item a {
+      font-size: 16px;
+      color: #01AAE4; }
+      @media screen and (max-width: 830px) {
+        #first-career-container .first-career-item .career-item a {
+          font-size: 14px; } }
+    #first-career-container .first-career-item .career-item i {
+      margin-top: 10px; }
+
+#second-career-containers {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 80%;
+  padding: 40px 0;
+  position: relative; }
+  @media screen and (max-width: 767px) {
+    #second-career-containers {
+      flex-direction: column; } }
+  #second-career-containers .second-career-item {
+    width: 27%;
+    text-align: left; }
+    @media screen and (max-width: 767px) {
+      #second-career-containers .second-career-item {
+        width: 90%;
+        margin-bottom: 40px; } }
+    #second-career-containers .second-career-item h4, #second-career-containers .second-career-item p {
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      color: #505050;
+      font-size: 18px; }
+    #second-career-containers .second-career-item p {
+      color: #878787;
+      font-weight: normal;
+      font-size: 16px; }
 
 .ctamodal {
   text-align: center;

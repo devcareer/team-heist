@@ -20,16 +20,19 @@
 @import 'pages/_about'; 
 @import 'pages/_contact'; 
 @import 'pages/_home'; 
-@import 'pages/_careerlist';
-@import 'pages/job';
-@import 'pages/people';
+@import 'pages/_job';
+@import 'pages/_people';
 @import 'pages/_company';
+@import 'pages/careerlist2';
+
 
 @import 'themes/_admin'; 
 @import 'themes/_themes'; 
 
 @import 'vendors/_jquery-ui';
-@import 'vendors/_bootstrap'; 
+@import 'vendors/_bootstrap';
+
+
 
 .ctamodal{
     text-align: center;

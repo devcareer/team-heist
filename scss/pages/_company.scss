@@ -38,7 +38,7 @@ a{
     
 }
 
-main#company-second-section{
+main{
     background-color: $background-color;
     font-family: $font-family;
 
@@ -139,7 +139,7 @@ main#company-second-section{
             @include media-query(767px){
             display: none;
             flex-direction: column;
-            margin-top: 5px;
+             margin-top: 5px;
             
             }
             #i2, #i1, #i3{
@@ -382,4 +382,6 @@ main#company-second-section{
 
     }
 }
+
+
 
