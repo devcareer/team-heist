@@ -500,3 +500,66 @@ ul {
     margin-bottom: 2rem; }
     .home-ctamodal-2 .home-copyright .playstore {
       margin-left: 2rem; }
+
+.peoples-media {
+  display: none; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -15rem;
+  margin-left: 5rem; }
+  .grid .item1 {
+    margin-top: 24rem;
+    margin-left: 3rem; }
+  .grid .item2 {
+    margin-top: 19rem;
+    margin-left: -0.7rem; }
+  .grid .item3 {
+    margin-left: -15rem; }
+  .grid .item4 {
+    margin-left: 8rem; }
+  .grid .item5 {
+    margin-top: -11rem;
+    margin-left: -0.5rem; }
+  .grid .item6 {
+    margin-top: -11rem;
+    margin-left: 0.5rem; }
+
+.item7 {
+  margin-left: 59rem;
+  margin-top: -20rem; }
+
+@media (max-width: 580px) {
+  .grid {
+    display: none; }
+  .item7 {
+    display: none; }
+  .footer-writeup {
+    display: none; }
+  .peoples-media {
+    display: block; } }
+
+.peoples-media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  overflow: hidden; }
+  .peoples-media-grid .item-1-media {
+    margin-left: 4rem;
+    margin-top: 5rem; }
+  .peoples-media-grid .item-2-media {
+    margin-top: 5rem; }
+  .peoples-media-grid .item-3-media {
+    margin-left: -2.5rem; }
+  .peoples-media-grid .item-4-media {
+    margin-left: 7rem; }
+  .peoples-media-grid .item-5-media {
+    margin-top: -3rem; }
+  .peoples-media-grid .item-6-media {
+    margin-top: -3rem;
+    margin-right: 8rem; }
+
+.item-7-media {
+  margin-left: 18.8rem;
+  margin-top: -5rem; }
