@@ -426,6 +426,190 @@ a {
         #company-section-2 #section-4 .flex-container-3 .flex-item-3:nth-child(8) img {
           margin-top: 60px; }
 
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 90px  auto;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 767px) {
+    .flex-container {
+      flex-direction: column; } }
+  .flex-container #flex-item-1 {
+    padding-top: 35px;
+    width: 50%;
+    padding-right: 30px;
+    text-align: left; }
+    @media screen and (max-width: 767px) {
+      .flex-container #flex-item-1 {
+        width: 80%;
+        margin: 50px auto;
+        padding-right: 0px; } }
+    .flex-container #flex-item-1 h2 {
+      font-size: 42px;
+      line-height: 49px; }
+      @media screen and (max-width: 767px) {
+        .flex-container #flex-item-1 h2 {
+          font-size: 30px;
+          line-height: 27px;
+          margin-bottom: 15px; } }
+    .flex-container #flex-item-1 p {
+      font-size: 24px;
+      line-height: 32px;
+      color: #878787; }
+      @media screen and (max-width: 767px) {
+        .flex-container #flex-item-1 p {
+          font-size: 22px; } }
+  .flex-container #flex-item-2 {
+    width: 36%; }
+    @media screen and (max-width: 767px) {
+      .flex-container #flex-item-2 {
+        width: 70%;
+        margin: 0px auto;
+        padding-right: 0px; } }
+    .flex-container #flex-item-2 img {
+      width: 420px;
+      height: 304px; }
+
+.container {
+  position: relative;
+  margin: 0px;
+  padding: 0px; }
+  .container img {
+    position: absolute; }
+  .container #one {
+    left: 80px; }
+    @media screen and (max-width: 767px) {
+      .container #one {
+        display: none; } }
+  .container #two {
+    right: 0px;
+    top: 60px; }
+  .container #three {
+    right: 355px;
+    top: 350px; }
+    @media screen and (max-width: 767px) {
+      .container #three {
+        top: 261px;
+        right: 288px; } }
+  .container #four {
+    right: 480px;
+    top: 110px; }
+    @media screen and (max-width: 767px) {
+      .container #four {
+        top: 20px;
+        right: 150px; } }
+  .container #five {
+    left: 354px;
+    top: 143px; }
+    @media screen and (max-width: 767px) {
+      .container #five {
+        display: none; } }
+  .container #six {
+    left: 0px;
+    top: 100px; }
+    @media screen and (max-width: 767px) {
+      .container #six {
+        display: none; } }
+  .container #seven {
+    top: 57px;
+    left: 536px; }
+    @media screen and (max-width: 767px) {
+      .container #seven {
+        display: none; } }
+  .container #eight {
+    top: 361px;
+    right: 108px; }
+    @media screen and (max-width: 767px) {
+      .container #eight {
+        top: 261px;
+        right: 148px; } }
+  .container #nine {
+    top: 127px;
+    left: 193px; }
+    @media screen and (max-width: 767px) {
+      .container #nine {
+        display: none; } }
+  .container #ten {
+    left: 96px;
+    top: 333px; }
+    @media screen and (max-width: 767px) {
+      .container #ten {
+        display: none; } }
+  .container #eleven {
+    right: 314px;
+    top: 173px; }
+    @media screen and (max-width: 767px) {
+      .container #eleven {
+        display: none; } }
+  .container #twelve {
+    right: 293px;
+    top: 83px; }
+    @media screen and (max-width: 767px) {
+      .container #twelve {
+        right: 40px;
+        top: 210px; } }
+  .container #thirteen {
+    right: 200px;
+    top: 264px; }
+    @media screen and (max-width: 767px) {
+      .container #thirteen {
+        display: none; } }
+  .container #fouteen {
+    left: 320px;
+    top: 200px; }
+    @media screen and (max-width: 767px) {
+      .container #fouteen {
+        display: none; } }
+  .container div {
+    position: absolute;
+    top: 150px;
+    z-index: 99;
+    width: 35%;
+    left: 32%; }
+    @media screen and (max-width: 767px) {
+      .container div {
+        width: 75%;
+        left: 0px;
+        text-align: left;
+        padding-left: 50px;
+        top: 50px; } }
+    .container div h3 {
+      font-family: 'Source Serif Pro', serif;
+      font-size: 28px;
+      line-height: 36px;
+      font-style: italic;
+      text-align: center;
+      font-weight: normal; }
+      @media screen and (max-width: 767px) {
+        .container div h3 {
+          text-align: left; } }
+    .container div p {
+      color: #FA6866;
+      text-align: center;
+      font-size: 64px;
+      line-height: 64px;
+      margin: 0px;
+      padding: 0px; }
+      @media screen and (max-width: 767px) {
+        .container div p {
+          display: none; } }
+    .container div h5 {
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0px;
+      padding: 0px; }
+      @media screen and (max-width: 767px) {
+        .container div h5 {
+          text-align: left; } }
+
 .ctamodal {
   text-align: center;
   margin-top: 13rem; }
