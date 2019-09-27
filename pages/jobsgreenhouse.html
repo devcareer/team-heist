@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/078be77031.css"> 
     <link rel="stylesheet" href="../css/main.css">
-    <title>Document</title>
+    <title>Job</title>
 </head>
 <body>
    
+    <div id="job-flex-container">
+        <div class="flex-item">
+            <img src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1569252083/samples/figma%20company/saz0jpbgk9hamtt6yovv.png" alt="" id="logo">
+            <h2>ECONOMIST</h2>
+            <p>Cambridge, Montreal</p>
+        </div>
+        <div class="flex-item">
+            <img src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1569252084/samples/figma%20company/i9e2fwyjwmfyqscdp10v.png" alt="" id="image-alone">
+        </div>
+    </div>
+
+    <div id="job-form-container">
+        <h2>SUBMIT YOUR APPLICATION</h2>
+        <form action="">
+            <div class="flex-form input">
+            <label for="resume" id="label-resume" class="flex-item">Resume/CV</label>
+            <div id="resume" class="flex-item">
+                    <div id="resume-first"><i class="fa  fa-paperclip" id="first-fa"> </i> <p>ATTACH RESUME/CV</p></div>
+                    <div id="resume-second"></div>
+                </div>
+            </div>
+
+            <div class="flex-form input">
+                <label for="linkled" id="label-linkled" class="flex-item">Linkedln Profile</label>
+                <div id="linkled" class="flex-item">
+                    <div id="linkled-first"><i class=" fa fa-linkedin-square" id="first-fa"> </i> <p>APPLY WITH LINKEDIN</p></div>
+                    <div id="linkled-second"><p>Your full Linkled profile will be shared <a href="">Learn more</a></p></div>
+                </div>
+            </div>
+
+            <div class="flex-form input">
+            <label for="name" id="label-name" class="flex-item">Full Name</label>
+            <input type="text" name="name" id="name" class="flex-item" placeholder="" required >
+            </div>
+
+            <div class="flex-form input">
+            <label for="email" id="label-email" class="flex-item">Email</label>
+            <input type="email" name="email" id="email" class="flex-item" required>
+            </div>
+
+            <div class="flex-form input">
+            <label for="phone" id="label-phone" class="flex-item">Phone</label>
+            <input type="number" name="phone" id="phone" class="flex-item" placeholder="" required >
+            </div>
+
+            <div class="flex-form input">
+            <label for="company" id="label-company" class="flex-item">Current Company</label>
+            <input type="text" name="company" id="company" class="flex-item" required>
+            </div>
+        </form>
+
+        <div id="button">
+            <button>Submit application</button>
+        </div>
+        
+    </div>
+
     <script src=js/main.js></script>
 </body>
 </html>

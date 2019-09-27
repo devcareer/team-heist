@@ -1,0 +1,233 @@
+//font-family: 'Source Serif Pro', serif;
+@mixin  media-query($width){
+    @media screen and (max-width: $width){
+        @content;
+    }
+    
+}
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin:90px  auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @include media-query(767px){
+        flex-direction: column;
+     }
+
+    #flex-item-1{
+        padding-top: 35px;
+        width: 50%;
+        padding-right: 30px;
+        text-align: left;
+        @include media-query(767px){
+            width: 80%;
+            margin: 50px auto;
+            padding-right: 0px;
+         }
+
+        h2{
+            font-size: 42px;
+            line-height: 49px;
+            @include media-query(767px){
+                font-size: 30px;
+                line-height: 27px;
+                margin-bottom: 15px;
+             }
+        }
+
+        p{
+            font-size: 24px;
+            line-height: 32px;
+            color: #878787;
+            @include media-query(767px){
+                font-size: 22px;
+             }
+        }
+    }
+    #flex-item-2{
+        width: 36%;
+        @include media-query(767px){
+            width: 70%;
+            margin: 0px auto;
+            padding-right: 0px;
+         }        
+        
+        img{
+            width: 420px;
+            height: 304px;
+        }
+    }
+}
+
+.container{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+
+    img{
+        position: absolute;
+    }
+    #one{
+        left: 80px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #two{
+        right: 0px;
+        top: 60px;
+        
+    }
+    #three{
+        right: 355px;
+        top: 350px;
+        @include media-query(767px){
+            top: 261px;
+            right: 288px;
+         }
+    }
+    #four{
+        right: 480px;
+        top: 110px;
+        @include media-query(767px){
+            top: 20px;
+            right: 150px;
+         }
+    }
+    #five{
+        left: 354px;
+        top: 143px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #six{
+        left: 0px;
+        top: 100px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #seven{
+        top: 57px;
+        left: 536px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #eight{
+        top: 361px;
+        right: 108px;
+        @include media-query(767px){
+           top: 261px;
+           right: 148px;
+        }
+    }
+    #nine{
+        top: 127px;
+        left: 193px;//536px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #ten{
+        left: 96px;
+        top: 333px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #eleven{
+        right: 314px;
+        top: 173px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #twelve{
+        right: 293px;
+        top: 83px;
+        @include media-query(767px){
+            right: 40px;
+            top: 210px;
+        }
+    }
+    #thirteen{
+        right: 200px;
+        top: 264px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+    #fouteen{
+        left: 320px;
+        top: 200px;
+        @include media-query(767px){
+            display: none;
+        }
+    }
+
+    div{
+        position: absolute;
+        top: 150px;
+        z-index: 99;
+        width: 35%;
+        left: 32%;
+        @include media-query(767px){
+            width: 75%;
+            left: 0px;
+            text-align: left;
+            padding-left: 50px;
+            top: 50px;
+        }
+        
+
+        h3{
+            font-family: 'Source Serif Pro', serif;
+            font-size: 28px;
+            line-height: 36px;
+            font-style: italic;
+            text-align: center;
+            font-weight: normal;
+            @include media-query(767px){
+                text-align: left;
+            }
+        }
+        p{
+            color: #FA6866; 
+            text-align: center;
+            font-size: 64px;
+            line-height: 64px;
+            margin: 0px;
+            padding: 0px;
+            @include media-query(767px){
+                display: none;
+            }
+        }
+        h5{
+            text-align: center;
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0px;
+            padding: 0px;
+            @include media-query(767px){
+                text-align: left;
+            }
+        }
+    }
+}
