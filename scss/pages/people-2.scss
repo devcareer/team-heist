@@ -16,7 +16,7 @@
 }
 
 
-.flex-container{
+#first-people-section-2a{
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -28,7 +28,7 @@
         flex-direction: column;
      }
 
-    #flex-item-1{
+    #first-people-section-2a-item-1{
         padding-top: 35px;
         width: 50%;
         padding-right: 30px;
@@ -58,7 +58,7 @@
              }
         }
     }
-    #flex-item-2{
+    #first-people-section-2a-item-2{
         width: 36%;
         @include media-query(767px){
             width: 70%;
@@ -73,7 +73,7 @@
     }
 }
 
-.container{
+#second-people-section-2a{
     position: relative;
     margin: 0px;
     padding: 0px;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +14,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+#second-career-containers .second-career-item p {
   line-height: 1.3; }
 
 ul {
@@ -346,7 +348,7 @@ ul {
   margin-top: 5rem;
   margin-left: 5rem; }
   .companysection-footer .carrot {
-    margin-right: 15rem;
+    margin-right: 9rem;
     margin-top: -4rem; }
 
 .company-footer-img {
@@ -568,6 +570,92 @@ ul {
 * {
   padding: 0;
   margin: 0;
+  font-family: "Raleway" "sans-serif"; }
+
+#first-career-container {
+  background-color: #fafafa;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  #first-career-container img {
+    position: absolute;
+    right: 250px;
+    top: 81px; }
+    @media screen and (max-width: 767px) {
+      #first-career-container img {
+        display: none; } }
+    @media screen and (max-width: 940px) {
+      #first-career-container img {
+        right: 150px; } }
+  #first-career-container .first-career-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #f6f6f6;
+    border: 1px dashed black;
+    border-radius: 8px;
+    padding: 40px;
+    padding-bottom: 50px; }
+    #first-career-container .first-career-item #first-career-item-1 {
+      width: 60%; }
+      @media screen and (max-width: 767px) {
+        #first-career-container .first-career-item #first-career-item-1 {
+          width: 90%; } }
+    #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      color: #505050;
+      font-weight: 900;
+      font-size: 19px; }
+      @media screen and (max-width: 1450px) {
+        #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+          font-size: 14px; } }
+      @media screen and (max-width: 900px) {
+        #first-career-container .first-career-item .career-item h4, #first-career-container .first-career-item .career-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #first-career-container .first-career-item .career-item p {
+          font-size: 12px; } }
+    #first-career-container .first-career-item .career-item a {
+      font-size: 16px;
+      color: #01AAE4; }
+      @media screen and (max-width: 830px) {
+        #first-career-container .first-career-item .career-item a {
+          font-size: 14px; } }
+    #first-career-container .first-career-item .career-item i {
+      margin-top: 10px; }
+
+#second-career-containers {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 80%;
+  padding: 40px 0;
+  position: relative; }
+  @media screen and (max-width: 767px) {
+    #second-career-containers {
+      flex-direction: column; } }
+  #second-career-containers .second-career-item {
+    width: 27%;
+    text-align: left; }
+    @media screen and (max-width: 767px) {
+      #second-career-containers .second-career-item {
+        width: 90%;
+        margin-bottom: 40px; } }
+    #second-career-containers .second-career-item h4, #second-career-containers .second-career-item p {
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 10px;
+      color: #505050;
+      font-size: 18px; }
+    #second-career-containers .second-career-item p {
+      color: #878787;
+      font-weight: normal;
+      font-size: 16px; }
+
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box; }
 
 a {
@@ -740,7 +828,7 @@ a {
         #company-section-2 #section-3 .container-item {
           width: 90%;
           margin-bottom: 40px; } }
-      #company-section-2 #section-3 .container-item h4 {
+      #company-section-2 #section-3 .container-item h4, #company-section-2 #section-3 .container-item #second-career-containers .second-career-item p, #second-career-containers .second-career-item #company-section-2 #section-3 .container-item p {
         margin-top: 20px;
         color: #555555;
         font-size: 18px;
@@ -847,7 +935,7 @@ a {
   margin: 0px;
   box-sizing: border-box; }
 
-.flex-container {
+#first-people-section-2a {
   display: flex;
   justify-content: space-around;
   width: 90%;
@@ -855,148 +943,148 @@ a {
   flex-direction: row;
   flex-wrap: wrap; }
   @media screen and (max-width: 767px) {
-    .flex-container {
+    #first-people-section-2a {
       flex-direction: column; } }
-  .flex-container #flex-item-1 {
+  #first-people-section-2a #first-people-section-2a-item-1 {
     padding-top: 35px;
     width: 50%;
     padding-right: 30px;
     text-align: left; }
     @media screen and (max-width: 767px) {
-      .flex-container #flex-item-1 {
+      #first-people-section-2a #first-people-section-2a-item-1 {
         width: 80%;
         margin: 50px auto;
         padding-right: 0px; } }
-    .flex-container #flex-item-1 h2 {
+    #first-people-section-2a #first-people-section-2a-item-1 h2 {
       font-size: 42px;
       line-height: 49px; }
       @media screen and (max-width: 767px) {
-        .flex-container #flex-item-1 h2 {
+        #first-people-section-2a #first-people-section-2a-item-1 h2 {
           font-size: 30px;
           line-height: 27px;
           margin-bottom: 15px; } }
-    .flex-container #flex-item-1 p {
+    #first-people-section-2a #first-people-section-2a-item-1 p {
       font-size: 24px;
       line-height: 32px;
       color: #878787; }
       @media screen and (max-width: 767px) {
-        .flex-container #flex-item-1 p {
+        #first-people-section-2a #first-people-section-2a-item-1 p {
           font-size: 22px; } }
-  .flex-container #flex-item-2 {
+  #first-people-section-2a #first-people-section-2a-item-2 {
     width: 36%; }
     @media screen and (max-width: 767px) {
-      .flex-container #flex-item-2 {
+      #first-people-section-2a #first-people-section-2a-item-2 {
         width: 70%;
         margin: 0px auto;
         padding-right: 0px; } }
-    .flex-container #flex-item-2 img {
+    #first-people-section-2a #first-people-section-2a-item-2 img {
       width: 420px;
       height: 304px; }
 
-.container {
+#second-people-section-2a {
   position: relative;
   margin: 0px;
   padding: 0px; }
-  .container img {
+  #second-people-section-2a img {
     position: absolute; }
-  .container #one {
+  #second-people-section-2a #one {
     left: 80px; }
     @media screen and (max-width: 767px) {
-      .container #one {
+      #second-people-section-2a #one {
         display: none; } }
-  .container #two {
+  #second-people-section-2a #two {
     right: 0px;
     top: 60px; }
-  .container #three {
+  #second-people-section-2a #three {
     right: 355px;
     top: 350px; }
     @media screen and (max-width: 767px) {
-      .container #three {
+      #second-people-section-2a #three {
         top: 261px;
         right: 288px; } }
-  .container #four {
+  #second-people-section-2a #four {
     right: 480px;
     top: 110px; }
     @media screen and (max-width: 767px) {
-      .container #four {
+      #second-people-section-2a #four {
         top: 20px;
         right: 150px; } }
-  .container #five {
+  #second-people-section-2a #five {
     left: 354px;
     top: 143px; }
     @media screen and (max-width: 767px) {
-      .container #five {
+      #second-people-section-2a #five {
         display: none; } }
-  .container #six {
+  #second-people-section-2a #six {
     left: 0px;
     top: 100px; }
     @media screen and (max-width: 767px) {
-      .container #six {
+      #second-people-section-2a #six {
         display: none; } }
-  .container #seven {
+  #second-people-section-2a #seven {
     top: 57px;
     left: 536px; }
     @media screen and (max-width: 767px) {
-      .container #seven {
+      #second-people-section-2a #seven {
         display: none; } }
-  .container #eight {
+  #second-people-section-2a #eight {
     top: 361px;
     right: 108px; }
     @media screen and (max-width: 767px) {
-      .container #eight {
+      #second-people-section-2a #eight {
         top: 261px;
         right: 148px; } }
-  .container #nine {
+  #second-people-section-2a #nine {
     top: 127px;
     left: 193px; }
     @media screen and (max-width: 767px) {
-      .container #nine {
+      #second-people-section-2a #nine {
         display: none; } }
-  .container #ten {
+  #second-people-section-2a #ten {
     left: 96px;
     top: 333px; }
     @media screen and (max-width: 767px) {
-      .container #ten {
+      #second-people-section-2a #ten {
         display: none; } }
-  .container #eleven {
+  #second-people-section-2a #eleven {
     right: 314px;
     top: 173px; }
     @media screen and (max-width: 767px) {
-      .container #eleven {
+      #second-people-section-2a #eleven {
         display: none; } }
-  .container #twelve {
+  #second-people-section-2a #twelve {
     right: 293px;
     top: 83px; }
     @media screen and (max-width: 767px) {
-      .container #twelve {
+      #second-people-section-2a #twelve {
         right: 40px;
         top: 210px; } }
-  .container #thirteen {
+  #second-people-section-2a #thirteen {
     right: 200px;
     top: 264px; }
     @media screen and (max-width: 767px) {
-      .container #thirteen {
+      #second-people-section-2a #thirteen {
         display: none; } }
-  .container #fouteen {
+  #second-people-section-2a #fouteen {
     left: 320px;
     top: 200px; }
     @media screen and (max-width: 767px) {
-      .container #fouteen {
+      #second-people-section-2a #fouteen {
         display: none; } }
-  .container div {
+  #second-people-section-2a div {
     position: absolute;
     top: 150px;
     z-index: 99;
     width: 35%;
     left: 32%; }
     @media screen and (max-width: 767px) {
-      .container div {
+      #second-people-section-2a div {
         width: 75%;
         left: 0px;
         text-align: left;
         padding-left: 50px;
         top: 50px; } }
-    .container div h3 {
+    #second-people-section-2a div h3 {
       font-family: 'Source Serif Pro', serif;
       font-size: 28px;
       line-height: 36px;
@@ -1004,9 +1092,9 @@ a {
       text-align: center;
       font-weight: normal; }
       @media screen and (max-width: 767px) {
-        .container div h3 {
+        #second-people-section-2a div h3 {
           text-align: left; } }
-    .container div p {
+    #second-people-section-2a div p {
       color: #FA6866;
       text-align: center;
       font-size: 64px;
@@ -1014,16 +1102,16 @@ a {
       margin: 0px;
       padding: 0px; }
       @media screen and (max-width: 767px) {
-        .container div p {
+        #second-people-section-2a div p {
           display: none; } }
-    .container div h5 {
+    #second-people-section-2a div h5 {
       text-align: center;
       font-size: 16px;
       line-height: 22px;
       margin: 0px;
       padding: 0px; }
       @media screen and (max-width: 767px) {
-        .container div h5 {
+        #second-people-section-2a div h5 {
           text-align: left; } }
 
 * {
