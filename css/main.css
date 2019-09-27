@@ -396,6 +396,10 @@ ul {
   margin-top: 10rem;
   margin-left: 15rem; }
 
+.company__image {
+  position: relative;
+  top: 10%; }
+
 .company-graph {
   margin-top: 8rem;
   margin-left: 4rem; }
@@ -498,7 +502,7 @@ ul {
       margin-right: -3px;
       background: #FFFFFF;
       border-radius: 8px 0px 0px 8px;
-      margin-bottom: 0%; }
+      margin-bottom: 80%; }
     .companyHeader .companyButton__button2 {
       margin-top: 3%;
       width: 50px;
@@ -510,8 +514,8 @@ ul {
       border-radius: 0px 8px 8px 0px; }
 
 .company__image {
-  position: relative;
-  top: 10%; }
+  position: absolute;
+  top: 62%; }
 
 .company__image2 {
   display: none; }
@@ -543,13 +547,17 @@ ul {
       flex-direction: row; }
       .companyHeader .companyButton__button1 {
         margin-right: 0.5%;
-        width: 200px; }
+        width: 200px;
+        margin-bottom: 0%; }
       .companyHeader .companyButton__button2 {
-        width: 50px; }
+        width: 50px;
+        height: 35px; }
     .companyHeader .company__image {
       display: none; }
     .companyHeader .company__image2 {
       display: flex; }
+  .company__image {
+    display: none; }
   .companyBody {
     display: none; }
   .mobileCompanyBody {
