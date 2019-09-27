@@ -35,6 +35,45 @@ $titleColor: #505050;
 }
 
 
+#career-header{
+    background-image: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568411729/samples/figma%20career-list/ydndqy6cmddsl3rtoult.png");
+
+    #first-career-header-container{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+
+        #first-career-header-item-1{
+            display: flex;
+            img#left{
+                height: 15px;
+                width: 10px;
+                border: 1px solid white;
+                align-self: center;
+            }
+            p{
+                align-self: center;
+            }
+        }
+        #first-career-header-item-2{
+            display: flex;
+
+            #career-nav-ul{
+                border: 1px solid white;
+
+                #career-nav-li{
+                    display: inline;
+                }
+            }
+        }
+    }
+    
+}
+
+
 #first-career-container{
     background-color: #fafafa;
     padding-top: 150px;
