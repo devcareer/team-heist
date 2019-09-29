@@ -82,10 +82,68 @@
 
 
 
-@media(max-width:768px) {
-    .company-subnav-1{
+
+    
+
+    
+    
+    .company-media {
+       
+        display: none;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        h1 {
+            margin-bottom: 2rem;
+        }
+        p {
+            margin-bottom: 2rem;
+        }
+
+       
+        .company-media-img {
+            margin-left:1rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+
+            .company-media-img-22{
+                margin-left:7rem;
+            }
+            .company-media-img-33{
+                margin-left:7rem;
+        
+        }}
+
+        .company-media-img2 {
+            margin-left:1rem;
+            margin-bottom: 2rem;
+
+            .company-media-img2-55{
+                margin-left:5rem;
+            }
+            .company-media-img2-66{
+                margin-left:7rem;
+            }
+        }
+    }
+
+
+    @media(max-width:768px) {
+
+        .company-subnav-1{
+            display: none;
+        }
+        .company-graph {
         display: none;
     }
+    .company-footer-img {
+        display: none;
+    }
+    .companysection-footer {
+        display: none;
+    }
+
+
+
     .companysection2 {
        
         display: flex;
@@ -103,8 +161,10 @@
             margin-top: 5rem;
         }
     }
+
+
     .companysection2-num {
-        overflow-x:hidden;
+        
         display: flex;
         flex-direction: column;
         margin-left: 2rem;
@@ -112,29 +172,54 @@
             margin-bottom: 2rem;
         }
     }
-    .company-graph {
-        display: none;
-    }
-    .company-footer-img {
-        display: none;
-    }
-    .companysection-footer {
-        display: none;
-    }
     .company-media {
-        overflow-x:hidden;
-        display: block;
-        margin-top: 5rem;
-        margin-left: 2rem;
-        h1 {
-            margin-bottom: 2rem;
-        }
-        p {
-            margin-bottom: 2rem;
-        }
-        .company-media-img {
-            margin-bottom: 1rem;
+       
+        display: block;}
+    }
+
+    @media(max-width:580px){
+
+        .companysection2 {
+       
+           
+            margin-left: 1rem;
+            
+        
+    
+        .bear-footer {
+            width: 15rem;
+            height: 10rem;
+            
         }
     }
-}
 
+    .company-media{
+    .company-media-img {
+            margin-left:0.1rem;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+
+            .company-media-img-22{
+                margin-left:0.1rem;
+            }
+            .company-media-img-33{
+                margin-left:0.5rem;
+        
+        }}
+
+        .company-media-img2 {
+            margin-left:0.1rem;
+            margin-bottom: 0.2rem;
+
+            .company-media-img2-55{
+                margin-left:0.2rem;
+            }
+            .company-media-img2-66{
+                margin-left:0.2rem;
+            }
+        }
+    }
+
+
+    }
+    
