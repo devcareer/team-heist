@@ -1,11 +1,14 @@
+.company-subnav-1{
+    display:block;
+}
+
+
 .companysection2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10rem;
     margin-left: 10rem;
-
     
-
     .hide-link {
         display: none;
     }
@@ -78,11 +81,16 @@
 
 
 
-@media(max-width:580px) {
+
+@media(max-width:768px) {
+    .company-subnav-1{
+        display: none;
+    }
     .companysection2 {
+       
         display: flex;
         flex-direction: column;
-        margin-left: 2rem;
+        margin-left: 7rem;
         margin-top: 5rem;
         .hide-link {
             display: block;
@@ -96,9 +104,10 @@
         }
     }
     .companysection2-num {
+        overflow-x:hidden;
         display: flex;
         flex-direction: column;
-        margin-left: 1rem;
+        margin-left: 2rem;
         .company-item {
             margin-bottom: 2rem;
         }
@@ -113,9 +122,10 @@
         display: none;
     }
     .company-media {
+        overflow-x:hidden;
         display: block;
         margin-top: 5rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
         h1 {
             margin-bottom: 2rem;
         }
@@ -127,3 +137,4 @@
         }
     }
 }
+
