@@ -332,6 +332,8 @@ ul {
 
 @media (max-width: 768px) {
   .career-details-mobile {
+    display: block; }
+  .media-footer {
     display: block; } }
 
 @media (max-width: 580px) {
@@ -345,13 +347,13 @@ ul {
     .career-details-mobile .careerdet-p1 {
       margin-top: 2rem; }
     .career-details-mobile .xxxxx {
-      margin-left: 20rem;
+      margin-left: 25rem;
       margin-top: 2rem; }
     .career-details-mobile .career-det-mebiabtn {
       width: 15rem;
       margin-left: 3rem; }
     .career-details-mobile .careerdet-mobile1 {
-      margin-left: 5rem; }
+      margin-left: 7rem; }
       .career-details-mobile .careerdet-mobile1 .applique {
         width: 15rem; } }
 
