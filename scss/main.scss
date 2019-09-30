@@ -2,6 +2,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/_variables';
 
+@import 'base/_fonts';
 @import 'base/_reset';
 @import 'base/typography';
 
@@ -32,4 +33,4 @@
 @import 'themes/_themes'; 
 
 @import 'vendors/_jquery-ui';
-@import 'vendors/_bootstrap'; 
+@import 'vendors/_bootstrap';
