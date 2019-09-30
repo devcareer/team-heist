@@ -4,12 +4,14 @@
 
 @font-face {
     font-family: 'proxima_nova_altbold';
-    src: url('https://fontsquirrel.com/css/fonts/proxima_nova_altbold-webfont.woff2') format('woff2'),
+    src: url('./proxima_nova_alt_bold-webfont.woff2') format('woff2'),
          url('https://fontsquirrel.com/css/fonts/proxima_nova_altbold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+
 
 
 
@@ -76,7 +78,7 @@
 
 @font-face {
     font-family: 'proxima_novathin';
-    src: url('https://fontsquirrel.com/css/fonts/proxima_nova_thin-webfont.woff2') format('woff2'),
+    src: url('./proxima_nova_thin-webfont.woff2') format('woff2'),
          url('https://fontsquirrel.com/css/fonts/proxima_nova_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
