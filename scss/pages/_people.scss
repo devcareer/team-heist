@@ -1,8 +1,15 @@
+.people{
+  .navbar{
+    margin: 0;
+    background-color: white;
+    a{
+      color: black;
+    }
+  }
+}
 .peoples-media{
     display:none;
 }
-
-
 
 .grid{
     display:grid;

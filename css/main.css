@@ -589,6 +589,12 @@ ul {
     .home-ctamodal-2 .home-copyright .playstore {
       margin-left: 2rem; }
 
+.people .navbar {
+  margin: 0;
+  background-color: white; }
+  .people .navbar a {
+    color: black; }
+
 .peoples-media {
   display: none; }
 
@@ -684,7 +690,7 @@ ul {
       align-items: center; }
       .people-2 .people_2a .top__nav .top__nav--txtt {
         width: 68%;
-        line-height: 1.2;
+        line-height: 1.6;
         font-size: 20px;
         font-weight: 300;
         margin-right: 40px;
