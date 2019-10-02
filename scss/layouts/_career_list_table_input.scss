@@ -12,22 +12,39 @@ body{
 .header1{
     background: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568411743/samples/figma%20career-list/ukse4rdhtfbu0ykv8rcv.png") no-repeat;
     background-size: cover;
-    height: 55vh;
+    height: 65vh;
     
     @include for-phone-only(){
         background: rgb(252,107,106);
     }
    
-    .header-txt{
+    .header-txt {
+         color: $white;
+         font-size: 36px;
+         margin-left: 9%;
+         margin-top: 9%;
+        //  background:green;
+
+
+        @include for-phone-only(){
+            display: none;
+        }
+    }
+
+    .header-txtt{
         display: none;
         
         @include for-phone-only(){
          display: flex;
          flex-direction: column;
-         height: 50vh;
+         height: 25vh;
          justify-content: center;
          align-items: center;
         //  background: green;
+
+        //  .txt3 {
+        //      margin-bottom: 50px;
+        //  }
         } 
     }
     .txt{
@@ -39,7 +56,7 @@ body{
     }
 
     .header-b{
-        background: yellow;
+        background: none;
         position: sticky;
         top: 0;
         
@@ -63,11 +80,11 @@ body{
       box-shadow: 0 10px 10px  rgba(0,0,0, 0.6);
   
       @include for-phone-only {    
-          height: 10rem;
-          // width: rem;
-          position: sticky;
-          bottom: 80px;
-          background: #fff;
+        height: 10rem;
+        // width: rem;
+        position: relative;
+        bottom: 80px;
+        background: #fff;
        }
   
       .inputs {
@@ -202,6 +219,14 @@ body{
         padding: 1px 0 0 5px;
         
     }
+    .careerdetails {
+
+        @include for-phone-only(){
+            color: black;
+            display: block;
+            text-decoration: none;
+        }
+    
     .dep-cities {
         
         @include for-phone-only{
@@ -211,6 +236,7 @@ body{
             
         }
     }
+}
 }
 }
 
