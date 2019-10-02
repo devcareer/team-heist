@@ -14,6 +14,7 @@ body{
     background: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568411743/samples/figma%20career-list/ukse4rdhtfbu0ykv8rcv.png") no-repeat;
     background-size: cover;
     height: 65vh;
+    margin-top: 0;
     
     @include for-phone-only(){
         background: rgb(252,107,106);
