@@ -216,7 +216,7 @@ ul {
   .careerdet-h1 .careerdet-h1-image {
     position: relative;
     z-index: 1;
-    right: -9rem; }
+    right: -18rem; }
 
 .career-border {
   border-bottom: thin solid white;
@@ -266,20 +266,21 @@ ul {
 
 .image-text {
   position: relative;
-  text-align: center;
   color: white; }
   .image-text .bottom-left {
     position: absolute;
     bottom: 1rem;
-    left: 5rem; }
+    left: 1rem; }
 
 .career-details-mobile {
+  overflow: hidden;
   display: none; }
   .career-details-mobile .xxxxx {
     margin-left: 40rem;
     margin-top: 2rem; }
   .career-details-mobile .careerdet-p1 {
-    padding: 2rem; }
+    padding: 2rem;
+    font-weight: 500; }
     .career-details-mobile .careerdet-p1 p {
       padding: 2rem; }
   .career-details-mobile .mobile-image-text {
@@ -340,22 +341,20 @@ ul {
   .career-details-mobile {
     display: block; }
     .career-details-mobile .mobile-image-text .career-details-mobile-imgtext {
-      width: 20rem;
-      margin-left: 2rem; }
+      width: 15rem; }
     .career-details-mobile .mobile-image-text .bottom-left {
-      left: -6rem; }
+      left: -9rem;
+      top: 2rem; }
     .career-details-mobile .careerdet-p1 {
       margin-top: 2rem; }
     .career-details-mobile .xxxxx {
-      margin-left: 25rem;
+      margin-left: 15rem;
       margin-top: 2rem; }
     .career-details-mobile .career-det-mebiabtn {
       width: 15rem;
       margin-left: 3rem; }
-    .career-details-mobile .careerdet-mobile1 {
-      margin-left: 7rem; }
-      .career-details-mobile .careerdet-mobile1 .applique {
-        width: 15rem; } }
+    .career-details-mobile .careerdet-mobile1 .applique {
+      width: 15rem; } }
 
 .companysection2 {
   display: grid;
