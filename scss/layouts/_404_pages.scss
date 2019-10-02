@@ -9,7 +9,7 @@
 body{
  overflow-x: hidden;
  overflow-y: scroll;
-//  max-width: 100%;
+ font-family: 'Proxima-Nova', sans-serif;
 
   @include for-phone-only(){
     
@@ -35,7 +35,6 @@ body{
 .w404_img {
     display: flex;
     justify-content: space-around;
-    // width: 50vw;
     position: absolute;
     top: 0;
 
@@ -45,13 +44,11 @@ body{
        justify-content: center;
        align-items: center;
        width: 50%;
-      //  margin-bottom: 25rem;
 
        .w404__img--txtt{
         font-size: 46px;
         font-weight: 900;
         width: 90%;
-        // margin: 0 -80px 39px 0;
         line-height: 1.2;
         word-spacing: 5px;
         color: rgba(0,0,0, 0.8);
@@ -66,7 +63,7 @@ body{
           font-weight: 200;
           color: lightgrey;
           line-height: 1.3;
-        //  margin: 10px 65px 0 0;
+
 
           a{
               text-decoration: none;
