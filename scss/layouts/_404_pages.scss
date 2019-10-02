@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+.body{
  overflow-x: hidden;
  overflow-y: scroll;
  font-family: 'Proxima-Nova', sans-serif;
@@ -14,7 +14,7 @@ body{
   @include for-phone-only(){
     
   }
-}
+
 .main1 {
 
  
@@ -131,4 +131,6 @@ body{
       margin-top: 15px;
     }
   }
+}
+ 
 }
