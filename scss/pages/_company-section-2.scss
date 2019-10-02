@@ -12,6 +12,11 @@
     width: 80%;
     
 }
+
+.company-media{
+    text-align: center;
+    margin: 2rem;
+}
 @mixin  media-query($width){
     @media screen and (max-width: $width){
         @content;
