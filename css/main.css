@@ -124,8 +124,7 @@ ul {
 .body {
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Proxima-Nova', sans-serif;
-  background: rgba(0, 0, 0, 0.08); }
+  font-family: 'Proxima-Nova', sans-serif; }
   .body .main1 .blue_cloud {
     z-index: -1;
     height: 55%;
@@ -161,7 +160,7 @@ ul {
         width: 75%;
         font-size: 26px;
         font-weight: 200;
-        color: rgba(0, 0, 0, 0.3);
+        color: lightgrey;
         line-height: 1.3; }
         .body .main1 .w404_img .w404_img__txt .w404__img--txttt a {
           text-decoration: none;
