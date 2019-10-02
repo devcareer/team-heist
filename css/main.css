@@ -451,94 +451,6 @@ ul {
     .company-media .company-media-img {
       margin-bottom: 1rem; } }
 
-.container {
-  overflow: hidden; }
-
-.sub-navbar1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 3rem;
-  position: relative;
-  z-index: 2; }
-  .sub-navbar1 .sub-nav {
-    display: flex; }
-    .sub-navbar1 .sub-nav li {
-      margin-right: 1rem; }
-    .sub-navbar1 .sub-nav .sub-navbar-btn {
-      border: 1px solid #01AAE4;
-      border-radius: 8px; }
-
-.homepages-images {
-  position: relative;
-  margin-left: 15rem;
-  z-index: 1;
-  top: -23rem; }
-  .homepages-images .homepages-images1 {
-    margin-bottom: 50rem; }
-  .homepages-images .homepages-images2 {
-    margin-bottom: 22rem; }
-  .homepages-images .homepages-images3 {
-    margin-bottom: 30rem; }
-
-.subnav-feat {
-  margin-left: 25rem;
-  margin-top: -40rem; }
-  .subnav-feat .feat2 {
-    margin-left: -20rem;
-    margin-top: 5rem; }
-    .subnav-feat .feat2 img {
-      margin-left: 4rem; }
-
-.home-cta-modal {
-  margin-top: 10rem;
-  text-align: center; }
-  .home-cta-modal input[type] {
-    width: 15rem;
-    height: 2rem;
-    border-radius: 2rem; }
-  .home-cta-modal .home-cta-btn {
-    width: 10rem;
-    height: 2rem;
-    background: #01AAE4;
-    border: none;
-    border-radius: 0.5rem;
-    color: white; }
-  .home-cta-modal h3 {
-    margin-bottom: 1rem; }
-  .home-cta-modal p {
-    margin-bottom: 1rem; }
-  .home-cta-modal .cta-modal_x {
-    margin-left: 78rem;
-    margin-bottom: 10rem; }
-  .home-cta-modal .home-copyright {
-    display: flex;
-    margin-left: 29rem;
-    margin-top: 10rem;
-    margin-bottom: 2rem; }
-    .home-cta-modal .home-copyright .playstore {
-      margin-left: 2rem; }
-
-.home-ctamodal-2 {
-  margin-top: 10rem;
-  text-align: center; }
-  .home-ctamodal-2 .home-tick {
-    margin-bottom: 2rem; }
-  .home-ctamodal-2 .home-cta-btn {
-    width: 10rem;
-    height: 2rem;
-    background: #01AAE4;
-    border: none;
-    border-radius: 0.5rem;
-    color: white;
-    margin-top: 2rem; }
-  .home-ctamodal-2 .home-copyright {
-    display: flex;
-    margin-left: 29rem;
-    margin-top: 10rem;
-    margin-bottom: 2rem; }
-    .home-ctamodal-2 .home-copyright .playstore {
-      margin-left: 2rem; }
-
 .peoples-media {
   display: none; }
 
@@ -634,7 +546,7 @@ ul {
       align-items: center; }
       .people-2 .people_2a .top__nav .top__nav--txtt {
         width: 68%;
-        line-height: 1.2;
+        line-height: 1.6;
         font-size: 20px;
         font-weight: 300;
         margin-right: 40px;
@@ -1143,110 +1055,110 @@ a {
       width: 420px;
       height: 304px; }
 
-.container {
+.people-container {
   position: relative;
   margin: 0px;
   padding: 0px; }
-  .container img {
+  .people-container img {
     position: absolute; }
-  .container #one {
+  .people-container #one {
     left: 80px; }
     @media screen and (max-width: 767px) {
-      .container #one {
+      .people-container #one {
         display: none; } }
-  .container #two {
+  .people-container #two {
     right: 0px;
     top: 60px; }
-  .container #three {
+  .people-container #three {
     right: 355px;
     top: 350px; }
     @media screen and (max-width: 767px) {
-      .container #three {
+      .people-container #three {
         top: 261px;
         right: 288px; } }
-  .container #four {
+  .people-container #four {
     right: 480px;
     top: 110px; }
     @media screen and (max-width: 767px) {
-      .container #four {
+      .people-container #four {
         top: 20px;
         right: 150px; } }
-  .container #five {
+  .people-container #five {
     left: 354px;
     top: 143px; }
     @media screen and (max-width: 767px) {
-      .container #five {
+      .people-container #five {
         display: none; } }
-  .container #six {
+  .people-container #six {
     left: 0px;
     top: 100px; }
     @media screen and (max-width: 767px) {
-      .container #six {
+      .people-container #six {
         display: none; } }
-  .container #seven {
+  .people-container #seven {
     top: 57px;
     left: 536px; }
     @media screen and (max-width: 767px) {
-      .container #seven {
+      .people-container #seven {
         display: none; } }
-  .container #eight {
+  .people-container #eight {
     top: 361px;
     right: 108px; }
     @media screen and (max-width: 767px) {
-      .container #eight {
+      .people-container #eight {
         top: 261px;
         right: 148px; } }
-  .container #nine {
+  .people-container #nine {
     top: 127px;
     left: 193px; }
     @media screen and (max-width: 767px) {
-      .container #nine {
+      .people-container #nine {
         display: none; } }
-  .container #ten {
+  .people-container #ten {
     left: 96px;
     top: 333px; }
     @media screen and (max-width: 767px) {
-      .container #ten {
+      .people-container #ten {
         display: none; } }
-  .container #eleven {
+  .people-container #eleven {
     right: 314px;
     top: 173px; }
     @media screen and (max-width: 767px) {
-      .container #eleven {
+      .people-container #eleven {
         display: none; } }
-  .container #twelve {
+  .people-container #twelve {
     right: 293px;
     top: 83px; }
     @media screen and (max-width: 767px) {
-      .container #twelve {
+      .people-container #twelve {
         right: 40px;
         top: 210px; } }
-  .container #thirteen {
+  .people-container #thirteen {
     right: 200px;
     top: 264px; }
     @media screen and (max-width: 767px) {
-      .container #thirteen {
+      .people-container #thirteen {
         display: none; } }
-  .container #fouteen {
+  .people-container #fouteen {
     left: 320px;
     top: 200px; }
     @media screen and (max-width: 767px) {
-      .container #fouteen {
+      .people-container #fouteen {
         display: none; } }
-  .container div {
+  .people-container div {
     position: absolute;
     top: 150px;
     z-index: 99;
     width: 35%;
     left: 32%; }
     @media screen and (max-width: 767px) {
-      .container div {
+      .people-container div {
         width: 75%;
         left: 0px;
         text-align: left;
         padding-left: 50px;
         top: 50px; } }
-    .container div h3 {
+    .people-container div h3 {
       font-family: 'Source Serif Pro', serif;
       font-size: 28px;
       line-height: 36px;
@@ -1254,9 +1166,9 @@ a {
       text-align: center;
       font-weight: normal; }
       @media screen and (max-width: 767px) {
-        .container div h3 {
+        .people-container div h3 {
           text-align: left; } }
-    .container div p {
+    .people-container div p {
       color: #FA6866;
       text-align: center;
       font-size: 64px;
@@ -1264,16 +1176,16 @@ a {
       margin: 0px;
       padding: 0px; }
       @media screen and (max-width: 767px) {
-        .container div p {
+        .people-container div p {
           display: none; } }
-    .container div h5 {
+    .people-container div h5 {
       text-align: center;
       font-size: 16px;
       line-height: 22px;
       margin: 0px;
       padding: 0px; }
       @media screen and (max-width: 767px) {
-        .container div h5 {
+        .people-container div h5 {
           text-align: left; } }
 
 * {
