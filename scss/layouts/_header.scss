@@ -1,10 +1,10 @@
 .navbar {
     display: flex;
-    font-size: 1.2rem;
-    margin-top: 3rem;
-    margin-left: 5rem;
+    justify-content: space-between;
     overflow: hidden;
-    background-color: $coral;
+    align-items: baseline;
+    margin-top: 2rem;
+    padding-top: 2rem;
     .header-b-back {
         display: flex;
         margin-left: 1rem;
@@ -16,11 +16,12 @@
     }
     .headerimg {
         margin-top: 1rem;
+        margin-left: 12rem;
     }
     .navbar-ul {
         display: flex;
-        margin-left: 28rem;
-        width: 60vw;
+        width: 50vw;
+        justify-content: space-around;
         margin-top: 1rem;
         a {
             margin-right: 1.5rem;
@@ -69,19 +70,39 @@
     display: none;
     @media(max-width: 500px) {
         display: block;
-        background: $lightGrey;
         width: 100vw;
         .media-header1 {
             margin-left: 1rem;
             margin-bottom: 0.5rem;
         }
         .media-header2 {
-            margin-left: 7rem;
+            margin-left: 3rem;
             margin-top: 0.5rem;
         }
         .media-header3 {
-            margin-left: 10rem;
+            margin-top: -20%;
+            margin-left: 17rem;
             margin-bottom: 0.2rem;
         }
+    }
+}
+
+.header-button{
+        border: 1px solid $skyBlue; 
+        border-radius: 8px;
+}
+
+.people{
+    border-right: 0.5px solid $midGrey;
+    
+}
+.supporticon{
+    @include supportIcon();
+}
+
+
+@media(max-width:500px){
+    .nav{
+       display: none;
     }
 }

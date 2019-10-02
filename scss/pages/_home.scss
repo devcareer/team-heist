@@ -1,0 +1,689 @@
+body {
+  overflow-x: hidden;
+}
+
+#Home {
+  background-image: url($bgImage);
+  background-size: cover;
+  margin-top: -50px; 
+}
+.header{
+  margin-top: 4%;
+
+  &__header1 {
+    margin-top: 10%;
+  }
+
+  &__headerText {
+    font-family: 42px;
+    line-height: 51px;
+  }
+  &__headerParagraph {
+    @include font(16px, 22px, $midGrey);
+
+  }
+  &__headerButton {
+    background: $skyBlue;
+    border: none;
+    border-radius: 8px;
+    color: $white;
+    width: 300px;
+    padding: 1%;
+  }
+}
+
+//Homepage codes
+// The Hooper App section
+.section {
+  @include display(flex, column, left, left);
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 10%;
+  
+
+  &__header1 {
+      @include length(200px, 16px, 10px, $midGrey);
+      font-style: initial;
+      padding-left: 10%;
+      
+  }
+  &__header2 {
+      @include length(650px, 39px, 32px, $darkGrey);
+      font-style: bold;
+      margin-bottom: 0%;
+      padding-left: 10%;
+  }
+  &__paragraph {
+      @include length(6500px, 96px, 14px, $midGrey);
+      padding-left: 10%;
+  }
+
+}
+// The Image section
+.sectionPhoto {
+  @include display(flex, row, center, center);
+  position: absolute;
+  overflow-y: hidden;
+
+  &__image1 {
+      position: relative;
+      left: -5%;
+  }
+  &__image2 {
+      @include image-direction(relative, 60%);
+      left: -8%;        
+  }
+  &__image3 {
+      @include image-direction(relative, 80%);
+      left: -15%;        
+  }
+  &__image4 {
+      @include image-direction(relative, 60%);
+      left: -22%;        
+  }
+  &__image5 {
+      @include image-direction(relative, 40%);
+      left: -25%;        
+  }
+}
+
+
+// The Features Sections
+.feature {
+  @include display(flex, column, left, left);
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 10%;
+
+  .feature__header1 {
+    @include length(200px, 16px, 10px, $midGrey);
+    margin-top: 50%;
+    font-style: initial;
+    padding-left: 10%;
+
+  }
+  .feature__header2 {
+    @include length(650px, 39px, 32px, $darkGrey);
+    font-style: bold;
+    margin-bottom: 0%;
+    padding-left: 10%;
+  }
+  .feature__paragraph {
+    @include length(6500px, 96px, 14px, $midGrey);
+    padding-left: 10%;
+  }
+}
+
+.features {
+  @include display(flex, row, center, center);
+  flex-wrap: wrap;
+
+  .features1 {
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+      box-shadow: 0px 5px 25px rgba(0,0,0,0.05);
+      border-radius: 8px;
+
+      &__text {
+        font-weight: bold;
+    }
+  
+  }
+  
+  
+}
+
+// Career Section
+.article {
+  background-image: url($bgCareer);
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 0%;
+
+}
+.career {
+  @include display(flex, column, center, center);
+  text-align: left;
+  padding-top: 10%;
+  
+  &__header {
+      @include length(650px, 39px, 32px, $color-light-black);
+      font-style: bold;
+      margin-bottom: 2%;
+  }
+  &__paragraph {
+      @include length(650px, 96px, 14px, $midGrey); 
+      margin-bottom: 40%;     
+  }
+}
+
+// Adventure Section
+
+.adventure {
+  @include display(flex, column, left, left);
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 10%;
+
+  &__text1 {
+      @include length(300px, 16px, 10px, $midGrey);
+      font-style: initial;
+      padding-left: 10%;
+      text-align: left;
+  }
+  &__text2 {
+      @include length(6500px, 100%, 32px, $color-light-black);
+      font-style: bold;
+      margin-bottom: 2%;
+      margin-left: 10%;
+  }
+
+}
+
+
+// Adventure Cities
+.cities {
+  @include display(flex, row, space-around, 0);
+  margin-top: 10%;
+
+  &__image1 {
+      margin-top: 15%;
+  }
+  &__image2 {
+      margin-top: 30%;
+  }
+  &__image4 {
+      margin-top: 30%;
+  }
+  &__text {
+      @include beauty(center, 30px, $white);
+      position: relative;
+      top: -50%;
+      font-weight: bold;
+  
+  }
+  
+}
+.appInfo {
+  @include display(flex, column, center, center);
+  background: $bgInfo;
+
+  &--button {
+      @include button($skyBlue, 10px, $white, 8px, 3%, none);
+      width: 300px;
+  }
+  &__text {
+    @include font(16px, 22px, $midGrey);
+  }
+}
+
+.section-footer{
+    margin-top: 10rem;
+    
+    
+    .contain{
+        @include conTain();
+        display: grid;
+        grid-template-columns:repeat(6,1fr);
+        grid-gap:1rem;
+    }
+    
+    .footer-image{
+        margin-bottom: 0rem;
+    }
+    .contain1{
+        width: 20vw;
+    
+       
+    }
+  }
+    
+    p{
+        margin-bottom: 1rem;
+    }
+    
+    ul li{
+        margin-bottom: 0.5rem;
+    }
+    a > i{
+        margin-right: 2rem;
+        margin-top: 5rem;
+        color:$darkGrey;
+    }
+    
+    u {
+        margin-top: 2%;
+    }
+    
+    .supporticon{
+        @include supportIcon();
+    }
+  
+    .footer__para {
+        border: none;
+        width: 30px;
+        padding: 5px;
+        height: 25px;
+        border-radius: 8px;
+        font-size: 12px;
+        background: $coral;
+        color: $white;
+        position: relative;
+        margin-left: 250%;
+    }
+    
+    .footer__section {
+        
+        width: 150px;
+    }
+    .icon {
+        margin-top: 30%;
+    }
+    .mobileFooter {
+        @include hidden();
+    }
+
+
+/// mobile view codes (all classes with a .mobile)
+.mobileHeader {
+  @include hidden();
+}
+.mobileSection {
+  @include hidden();
+}
+.mobileSectionPhoto {
+  @include hidden();
+}
+.mobileArticle {
+  @include hidden();
+}
+.mobileCareer {
+  @include hidden();
+}
+.mobileAdventure {
+  @include hidden();
+}
+.mobileCities {
+  @include hidden();
+}
+.mobilefeature {
+  @include hidden();
+}
+.mobileInfo {
+  @include hidden();
+}
+
+
+
+// mobile view responsiveness
+
+@media screen and (max-width: 580px) {
+  #Home {
+      background-image: none;   
+      margin-top: 0px;
+  }
+  .navber .headerimage{
+    margin-top: 5%;
+      margin-left: 2.5rem;
+  }
+  .mobileHome {
+      background-image: url($bgCareer1);
+  }
+
+  .header__header1 {
+      @include hidden();
+  }
+  .mobileHeader {
+      @include flex(flex, column);
+
+    &__text {
+        @include beauty(center, 20px, $white);
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+    &__paragraph {
+        @include beauty(center, 15px, $white);
+        margin-bottom: 10%;
+    }
+    &__button {
+        @include button($white, 8px, $skyBlue, 8px,20%, none);
+    }
+  }
+ 
+  
+
+  .section {
+      @include hidden();
+  }
+  
+  .mobileSection {
+      @include flex(flex, column);
+
+    &__header1 {
+        @include hidden();
+    }
+    &__header2 {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 20%;
+    } 
+    &__paragraph {
+        @include beauty(center, 14px, $midGrey);
+        margin-top: 3%;
+    } 
+
+  }
+  
+
+  .sectionPhoto {
+    @include hidden();
+  }
+  .mobileSectionPhoto {
+      @include flex(flex, row);
+      position: absolute;
+      margin-top: 5%;
+
+    &__image1 {
+        @include hidden();
+    }
+    &__image2 {
+        @include position(40%, relative, 55%);
+        margin-top: 3%;
+        left: 10%;      
+    }
+    &__image3 {
+        @include position(40%, relative, 100%);
+        right: 4%;
+    }
+    &__image4 {
+        @include position(30%, relative, 30%);
+        margin-top: 5%;
+        right: 15%;        
+    }
+    &__image5 {
+        @include hidden();        
+    }
+  }
+  
+  .feature {
+    @include hidden();
+  }
+  .mobilefeature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+
+    .mobilefeature__header1 {
+      @include hidden();
+    }
+    .mobilefeature__header2 {
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      color: $darkGrey;
+      font-weight: bold;
+    }
+    .mobilefeature__paragraph {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #7A8085;
+    }
+  }
+
+  .features {
+      @include flex(flex, row);
+      flex-wrap: wrap;
+      margin-top: 10%;
+      margin-bottom: 30%;
+
+      .features1{
+        width: 80px;
+        margin-top: 20%;
+        padding-right: 5%;
+
+        &__image{
+            width: 80px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+      
+        }
+        &__text{
+            text-align: center;
+            font-size: 10px;
+            width: 100px;
+            margin-top: 10%;
+            margin-left: -10%;
+            
+        }
+    }
+  }
+
+  .article .career {
+    @include hidden();
+  }
+  .mobileArticle .mobileCareer {
+      @include flex(flex, column);
+
+  }
+  .mobileArticle {
+    @include flex(flex, column);
+      margin-top: 10%;
+      background-image: url($bgCareer);
+      overflow: hidden;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-x: 50%;
+      background-position-y: 70%;
+  }
+  .mobileCareer__header {
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 3%;
+}
+.mobileCareer__paragraph {
+    @include beauty(center, 14px, $midGrey);
+    line-height: 19px;
+    margin-bottom: 70%;
+}
+  
+
+  .adventure {
+      @include hidden();
+  }
+  .mobileAdventure {
+      @include flex(flex, column);
+
+      &__text2 {
+        text-align: center;
+        font-size: 22px;
+        line-height: 27px;
+    }
+  }
+  
+  .cities {
+      @include hidden();
+  }
+  .mobileCities {
+      display: flex;
+      margin-top: 10%;
+
+      &__text {
+        @include beauty(center, 18px, $white);
+        position: relative;
+        bottom: 15%;
+        right: 30%;
+        font-weight: bold;
+    }
+  }
+  
+  .appInfo {
+      @include hidden();
+  }
+  .mobileInfo {
+    display: flex;
+    flex-direction: column;
+
+    .mobileInfo__button {
+      background: $skyBlue;
+      padding: 10px;
+      color: $white;
+      border: none;
+      border-radius: 8px;
+    }
+    .mobileInfo__text {
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: $midGrey;
+      margin-top: 5%;
+    }
+  }
+ 
+  .img {
+      display: flex;
+      align-items: center;
+      width: 10px;
+  }
+  .section-footer {
+      @include hidden();
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ctamodal{
+    text-align: center;
+    margin-top: 13rem;
+
+.ctabtn{
+width: 10rem;
+height: 2rem;
+
+background: #01AAE4;
+
+border-radius: 8px;}
+
+.playstore{
+background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%);;
+}
+
+.ctamodal a{
+color:#FA6866;
+text-decoration: none;
+}
+
+input[type=text] {
+width: 12rem;
+height: 1.5rem;
+border-radius: 0.3rem;
+
+}
+
+::placeholder{
+padding-left: 0.5rem;
+}
+
+
+
+}
+
+.grid{
+    display:flex;
+    margin-left: 32rem;
+margin-top:15rem;
+
+
+.gridp{
+    text-align:center;
+    margin-top:2rem;
+}
+
+.ctamodal2{
+    text-align: center;
+    margin-top: 13rem;
+    
+ 
+      .ctabtn{
+      width: 13rem;
+      height: 2.3rem;
+   margin-top: 2rem;
+      background: #01AAE4;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;}
+
+}
+
+
+.subnavbarsection{
+
+
+
+.containe{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+      margin: 5rem;
+      
+      overflow: hidden;
+     
+}
+
+ .subnav{
+  justify-self:flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+ color: skyblue;
+}
+
+ ul li{
+  list-style: none;
+  padding: 0 1rem;
+
+ 
+}
+
+}
+
+.feat{
+  text-align: center;
+.featp{ margin-right:21rem;}
+  h3{
+      margin-right:15rem;
+  }
+
+  p{
+      margin-top: 1rem;
+  }
+}
+
+  .feat2{
+      margin-top: 5rem;
+   text-align: center;
+  }
+}
