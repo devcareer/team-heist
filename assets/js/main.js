@@ -12,7 +12,7 @@ $(function(){
 
 $(document).ready(function(){
 
-  $(".company-subnav-1").hide(); 
+  
     $(window).scroll(function () {  
         if (isScrolledAfterElement(".companysection2")) { 
             $('.company-subnav-1').fadeIn();  
