@@ -4,7 +4,7 @@
 
 
 
-@mixin flex {
+@mixin company-flex {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -243,7 +243,7 @@ a{
 
 
     #section-3{
-        @include flex;
+        @include company-flex;
         padding-top: 80px;
         padding-bottom: 40px;
         position: relative;
@@ -346,7 +346,7 @@ a{
             border-top: 2px solid #f6f6f6;
             border-right: 2px solid #f6f6f6;
             
-            @include flex;
+            @include company-flex;
             flex-wrap: wrap;
 
             @include media-query(767px){
