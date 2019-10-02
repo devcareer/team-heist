@@ -161,12 +161,14 @@ body {
 
 body {
   overflow-x: hidden;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  font-family: 'Proxima-nova', sans-serif; }
 
 .header1 {
   background: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568411743/samples/figma%20career-list/ukse4rdhtfbu0ykv8rcv.png") no-repeat;
   background-size: cover;
-  height: 65vh; }
+  height: 65vh;
+  margin-top: 0; }
   @media (max-width: 599px) {
     .header1 {
       background: #fc6b6a; } }
@@ -193,7 +195,6 @@ body {
       font-size: 26px;
       font-weight: 700; } }
   .header1 .header-b {
-    background: none;
     position: sticky;
     top: 0; }
 
@@ -410,24 +411,23 @@ body {
 .navbar {
   display: flex;
   font-size: 1.2rem;
-  margin-top: 3rem;
   margin-left: 5rem;
   overflow: hidden;
-  background-color: #FA6866; }
+  background-color: transparent; }
   .navbar .header-b-back {
     display: flex;
     margin-left: 1rem;
-    margin-top: 1rem; }
+    margin-top: 5%; }
     .navbar .header-b-back .header-back-img {
       border: thin solid white;
       padding: 0.3rem; }
   .navbar .headerimg {
-    margin-top: 1rem; }
+    margin-top: 5%; }
   .navbar .navbar-ul {
     display: flex;
     margin-left: 28rem;
     width: 60vw;
-    margin-top: 1rem; }
+    margin-top: 5%; }
     .navbar .navbar-ul a {
       margin-right: 1.5rem;
       text-decoration: none;
@@ -890,7 +890,7 @@ body {
       align-items: center; }
       .people-2 .people_2a .top__nav .top__nav--txtt {
         width: 68%;
-        line-height: 1.2;
+        line-height: 1.6;
         font-size: 20px;
         font-weight: 300;
         margin-right: 40px;
