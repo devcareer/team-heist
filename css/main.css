@@ -156,7 +156,8 @@ ul {
   justify-content: space-between;
   overflow: hidden;
   align-items: baseline;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  padding-top: 2rem; }
   .navbar .header-b-back {
     display: flex;
     margin-left: 1rem;
@@ -165,7 +166,8 @@ ul {
       border: thin solid white;
       padding: 0.3rem; }
   .navbar .headerimg {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    margin-left: 12rem; }
   .navbar .navbar-ul {
     display: flex;
     width: 50vw;
@@ -210,16 +212,16 @@ ul {
   @media (max-width: 500px) {
     .media-header {
       display: block;
-      background: #AAAAAA;
       width: 100vw; }
       .media-header .media-header1 {
         margin-left: 1rem;
         margin-bottom: 0.5rem; }
       .media-header .media-header2 {
-        margin-left: 7rem;
+        margin-left: 3rem;
         margin-top: 0.5rem; }
       .media-header .media-header3 {
-        margin-left: 10rem;
+        margin-top: -20%;
+        margin-left: 17rem;
         margin-bottom: 0.2rem; } }
 
 .header-button {
@@ -622,23 +624,54 @@ ul {
   overflow-y: hidden; }
   .sectionPhoto__image1 {
     position: relative;
-    left: 9%; }
+    left: -5%; }
   .sectionPhoto__image2 {
     position: relative;
     height: 60%;
-    left: 6%; }
+    left: -8%; }
   .sectionPhoto__image3 {
     position: relative;
     height: 80%;
-    right: 2%; }
+    left: -15%; }
   .sectionPhoto__image4 {
     position: relative;
     height: 60%;
-    right: 9%; }
+    left: -22%; }
   .sectionPhoto__image5 {
     position: relative;
     height: 40%;
-    left: -11%; }
+    left: -25%; }
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 10%; }
+  .feature .feature__header1 {
+    width: 200px;
+    height: 16px;
+    font-size: 10px;
+    color: #878787;
+    margin-top: 50%;
+    font-style: initial;
+    padding-left: 10%; }
+  .feature .feature__header2 {
+    width: 650px;
+    height: 39px;
+    font-size: 32px;
+    color: #505050;
+    font-style: bold;
+    margin-bottom: 0%;
+    padding-left: 10%; }
+  .feature .feature__paragraph {
+    width: 6500px;
+    height: 96px;
+    font-size: 14px;
+    color: #878787;
+    padding-left: 10%; }
 
 .features {
   display: flex;
@@ -821,9 +854,13 @@ u {
 .mobileCities {
   display: none; }
 
+.mobilefeature {
+  display: none; }
+
 @media screen and (max-width: 580px) {
   #Home {
-    background-image: none; }
+    background-image: none;
+    margin-top: 0%; }
   .navber .headerimage {
     margin-top: 5%;
     margin-left: 2.5rem; }
@@ -881,21 +918,40 @@ u {
       width: 100px;
       position: relative;
       height: 75%;
-      margin-top: 10%;
-      left: 8%; }
+      margin-top: 5%;
+      left: 10%; }
     .mobileSectionPhoto__image3 {
       width: 100px;
       position: relative;
-      height: 100%;
-      right: 2%; }
+      height: 200%;
+      right: 4%; }
     .mobileSectionPhoto__image4 {
       width: 100px;
       position: relative;
-      height: 70%;
-      margin-top: 10%;
-      right: 13%; }
+      height: 20%;
+      margin-top: 3%;
+      right: 15%; }
     .mobileSectionPhoto__image5 {
       display: none; }
+  .feature {
+    display: none; }
+  .mobilefeature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%; }
+    .mobilefeature .mobilefeature__header1 {
+      display: none; }
+    .mobilefeature .mobilefeature__header2 {
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      color: #505050;
+      font-weight: bold; }
+    .mobilefeature .mobilefeature__paragraph {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #7A8085; }
   .features {
     display: flex;
     flex-direction: row;
@@ -947,7 +1003,8 @@ u {
     .mobileAdventure__text2 {
       text-align: center;
       font-size: 22px;
-      line-height: 27px; }
+      line-height: 27px;
+      margin-top: 10%; }
   .cities {
     display: none; }
   .mobileCities {
@@ -1284,7 +1341,7 @@ u {
         margin-left: 3.5%;
         font-size: 26px;
         color: rgba(0, 0, 0, 0.5); }
-    .people-2 .sec__nav .btn {
+    .people-2 .sec__nav .btn1 {
       height: 36px;
       width: 15rem;
       outline: none;
