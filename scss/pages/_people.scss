@@ -7,19 +7,9 @@
     }
   }
 }
-<<<<<<< HEAD
-
 .peoples-media {
   display: none;
 }
-
-=======
-
-.peoples-media {
-  display: none;
-}
-
->>>>>>> d09e3a1a3ef3d2d771b2683fa591b0bf81abffb8
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -38,94 +28,96 @@
   }
   .item4 {
       margin-left: 22rem;
+      margin-top:0.5rem;
   }
   .item5 {
-      margin-top: -11rem;
+      margin-top: -10.5rem;
       margin-left: 0.5rem;
   }
   .item6 {
-      margin-top: -11rem;
-<<<<<<< HEAD
+     margin-top: -10.5rem;
       margin-left: -1.7rem;
-=======
-      margin-left: -1.5rem;
->>>>>>> d09e3a1a3ef3d2d771b2683fa591b0bf81abffb8
-  }
-}
+     }
 
-.item7 {
-  margin-left: 73rem;
-  margin-top: -20rem;
-}
-
-@media(max-width:580px) {
-  .grid {
-      display: none;
   }
+
   .item7 {
-      display: none;
+    margin-left: 73rem;
+    margin-top: -19.5rem;
   }
-  .footer-writeup {
-      display: none;
+  
+  @media(max-width:580px) {
+    .grid {
+        display: none;
+    }
+    .item7 {
+        display: none;
+    }
+    .footer-writeup {
+        display: none;
+    }
+    .peoples-media {
+        display: block;
+    }
   }
+  
+  @media(max-width:768px) {
+    .grid {
+        display: none;
+    }
+    .item7 {
+        display: none;
+    }
+    .footer-writeup {
+        display: none;
+    }
+    .peoples-media {
+        display: block;
+    }
+  }
+  
   .peoples-media {
-      display: block;
+    .peoples-media-writeup {
+        margin-top: 2rem;
+        margin-left: 15rem;
+        margin-bottom: 2.5rem
+    }
+    .peoples-media-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 2rem;
+        overflow: hidden;
+        .item-1-media {
+        
+            margin-left: 12.5rem;
+            margin-top: 5rem;
+        }
+        .item-2-media {
+            margin-top: 5.2rem;
+        }
+        .item-3-media {
+            margin-left: -3rem;
+            margin-top: 0.5rem;
+        }
+        .item-4-media {
+            margin-left: 15.7rem;
+            margin-top:0.1rem;
+        }
+        .item-5-media {
+           margin-top: -2.5rem;
+        }
+        .item-6-media {
+            margin-top: -2.5rem;
+            margin-right: 15rem;
+        }
+    }
+    .item-7-media {
+        margin-left: 27.2rem;
+        margin-top: -4.5rem;
+    }
   }
-}
+  
 
-@media(max-width:768px) {
-  .grid {
-      display: none;
-  }
-  .item7 {
-      display: none;
-  }
-  .footer-writeup {
-      display: none;
-  }
-  .peoples-media {
-      display: block;
-  }
-}
-
-.peoples-media {
-  .peoples-media-writeup {
-      margin-top: 2rem;
-      margin-left: 15rem;
-      margin-bottom: 2.5rem
-  }
-  .peoples-media-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin-top: 2rem;
-      overflow: hidden;
-      .item-1-media {
-          margin-left: 12.5rem;
-          margin-top: 5rem;
-      }
-      .item-2-media {
-          margin-top: 5rem;
-      }
-      .item-3-media {
-          margin-left: -3rem;
-          margin-top: 0.5rem;
-      }
-      .item-4-media {
-          margin-left: 15.7rem;
-      }
-      .item-5-media {
-          margin-top: -3rem;
-      }
-      .item-6-media {
-          margin-top: -3rem;
-          margin-right: 15rem;
-      }
-  }
-  .item-7-media {
-      margin-left: 27.2rem;
-      margin-top: -5rem;
-  }
-}
 
   *,
   *:before,

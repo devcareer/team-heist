@@ -1639,21 +1639,18 @@ u {
   .grid .item3 {
     margin-left: -17rem; }
   .grid .item4 {
-    margin-left: 22rem; }
+    margin-left: 22rem;
+    margin-top: 0.5rem; }
   .grid .item5 {
-    margin-top: -11rem;
+    margin-top: -10.5rem;
     margin-left: 0.5rem; }
   .grid .item6 {
-    margin-top: -11rem;
-<<<<<<< HEAD
+    margin-top: -10.5rem;
     margin-left: -1.7rem; }
-=======
-    margin-left: -1.5rem; }
->>>>>>> d09e3a1a3ef3d2d771b2683fa591b0bf81abffb8
 
 .item7 {
   margin-left: 73rem;
-  margin-top: -20rem; }
+  margin-top: -19.5rem; }
 
 @media (max-width: 580px) {
   .grid {
@@ -1689,21 +1686,22 @@ u {
     margin-left: 12.5rem;
     margin-top: 5rem; }
   .peoples-media .peoples-media-grid .item-2-media {
-    margin-top: 5rem; }
+    margin-top: 5.2rem; }
   .peoples-media .peoples-media-grid .item-3-media {
     margin-left: -3rem;
     margin-top: 0.5rem; }
   .peoples-media .peoples-media-grid .item-4-media {
-    margin-left: 15.7rem; }
+    margin-left: 15.7rem;
+    margin-top: 0.1rem; }
   .peoples-media .peoples-media-grid .item-5-media {
-    margin-top: -3rem; }
+    margin-top: -2.5rem; }
   .peoples-media .peoples-media-grid .item-6-media {
-    margin-top: -3rem;
+    margin-top: -2.5rem;
     margin-right: 15rem; }
 
 .peoples-media .item-7-media {
   margin-left: 27.2rem;
-  margin-top: -5rem; }
+  margin-top: -4.5rem; }
 
 *,
 *:before,
