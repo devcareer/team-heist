@@ -2564,7 +2564,8 @@ a {
         #job-form-container form .flex-form #resume #resume-first .fa {
           align-self: center;
           margin-right: 10px; }
-        #job-form-container form .flex-form #resume #resume-first p {
+        #job-form-container form .flex-form #resume #resume-first p.profile-details {
+          padding-top: 15px;
           font-weight: normal;
           align-self: center;
           font-size: 14px; }
@@ -2587,7 +2588,8 @@ a {
             color: blue;
             align-self: center;
             margin-right: 10px; }
-          #job-form-container form .flex-form #linkled #linkled-first p {
+          #job-form-container form .flex-form #linkled #linkled-first p.profile-details {
+            padding-top: 15px;
             font-weight: normal;
             align-self: center;
             font-size: 14px; }
