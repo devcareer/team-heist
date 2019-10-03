@@ -1987,6 +1987,14 @@ u {
     width: 300px;
     height: 200px; } }
 
+* {
+  margin: 0px;
+  padding: 0px; }
+
+#company-video-modal {
+  margin: 70px auto;
+  display: block; }
+
 .company-media {
   text-align: center;
   margin: 2rem; }
