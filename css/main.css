@@ -109,7 +109,7 @@ ul {
     .media-footer ul .media-line {
       border-bottom: thin solid grey; }
   .media-footer .media-hop {
-    margin-left: 12rem; }
+    margin-left: 8rem; }
   .media-footer .media-lang {
     border: 1px solid grey;
     border-radius: 8px;
@@ -121,17 +121,18 @@ ul {
     padding-top: 0.2rem;
     margin-left: 2rem; }
   .media-footer .media-terms {
-    margin-left: 10rem; }
+    margin-top: 10%;
+    margin-left: 30%; }
   .media-footer .media-push1 {
-    margin-left: 22rem; }
+    margin-left: 180px; }
   .media-footer .media-push2 {
-    margin-left: 25.5rem; }
+    margin-left: 235px; }
   .media-footer .media-push3 {
-    margin-left: 25rem; }
+    margin-left: 230px; }
   .media-footer .media-push4 {
-    margin-left: 25rem; }
+    margin-left: 230px; }
   .media-footer .media-push5 {
-    margin-left: 20rem; }
+    margin-left: 250px; }
   .media-footer a > i {
     margin-left: 1rem;
     margin-right: 2rem;
@@ -149,7 +150,17 @@ ul {
 
 @media (max-width: 580px) {
   .media-footer {
-    display: block; } }
+    display: block; }
+  .footer__input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px; }
+  .icon {
+    display: flex;
+    flex-direction: row;
+    width: 300px; }
+  .icon2 {
+    width: 10px; } }
 
 .navbar {
   display: flex;
@@ -686,7 +697,9 @@ ul {
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
     border-radius: 8px; }
     .features .features1__text {
-      font-weight: bold; }
+      font-weight: bold;
+      font-size: 10px;
+      text-align: center; }
 
 .article {
   background-image: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1568412244/samples/figma%20homepage/xhcnv8qdg16hi5dw9ubq.jpg");
