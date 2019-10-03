@@ -7,11 +7,19 @@
     }
   }
 }
+<<<<<<< HEAD
 
 .peoples-media {
   display: none;
 }
 
+=======
+
+.peoples-media {
+  display: none;
+}
+
+>>>>>>> d09e3a1a3ef3d2d771b2683fa591b0bf81abffb8
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,7 +45,11 @@
   }
   .item6 {
       margin-top: -11rem;
+<<<<<<< HEAD
       margin-left: -1.7rem;
+=======
+      margin-left: -1.5rem;
+>>>>>>> d09e3a1a3ef3d2d771b2683fa591b0bf81abffb8
   }
 }
 
@@ -274,7 +286,7 @@
             color:  rgba(0,0,0 , 0.5);
           }
          }
-         .btn {
+         .btn1 {
            height: 36px;
             width: 15rem;
             outline: none;
@@ -426,3 +438,108 @@
   }
   
   
+  .peopleSection{
+    margin-top: 20%;
+
+    &__header {
+        @include font(42px, 49px, $color-black);
+    }
+    &__text {
+        @include font(16px, 23px, $midGrey);
+    }
+}
+.mobilePeopleSection {
+    @include hidden();
+}
+.mobilePeopleVideo__image {
+    @include hidden();
+}
+.mobileIcon {
+    @include hidden();
+}
+.peopleVideo {
+    margin-top: 10%;
+}
+.peopleVideo__image {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    bottom: 30%;
+    margin-left: 10%;
+    color: $white;
+
+    .caption__header {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .caption__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .caption__link {
+        color: $white;
+    }
+    .caption__icon {
+        border-radius: 50%;
+        padding: 0.3%;
+        background: $white;
+    }
+}
+.peopleCarousel {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.peopleCarousel__image3 {
+    width: 1200px;
+}
+
+@media screen and (max-width: 580px) {
+    .peopleSection {
+        @include hidden();
+    }
+    .mobilePeopleSection {
+        @include flex(flex, column);
+        margin-top: 10%;
+        
+        &__header {
+            @include font(22px, 27px, $color-dim-black);
+        }
+        &__text {
+            @include font(14px, 19px, $midGrey);
+        }
+    }
+    .peopleImage {
+        @include flex(flex, row);
+    }
+    .mobileIcon {
+        display: flex;
+    }
+    .peopleVideo__image {
+        @include hidden();
+    }
+    
+    .mobilePeopleVideo__image {
+        display: flex;
+        width: 280px;
+    }
+
+    .peopleCarousel {
+        width: 300px;
+        height: 200px;
+    }
+    .peopleCarousel__image1 {
+        width: 300px;
+        height: 200px;
+    }
+    .peopleCarousel__image2 {
+        width: 300px;
+        height: 200px;
+    }
+    .peopleCarousel__image3 {
+        width: 300px;
+        height: 200px;
+        
+    }
+}
+

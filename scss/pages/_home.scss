@@ -36,6 +36,7 @@
   padding-top: 10%;
   margin-left: 10%;
   
+  
 
   &__header1 {
       @include length(200px, 16px, 10px, $midGrey);
@@ -63,28 +64,52 @@
 
   &__image1 {
       position: relative;
-      left: 9%;
+      left: -5%;
   }
   &__image2 {
       @include image-direction(relative, 60%);
-      left: 6%;        
+      left: -8%;        
   }
   &__image3 {
       @include image-direction(relative, 80%);
-      right: 2%;        
+      left: -15%;        
   }
   &__image4 {
       @include image-direction(relative, 60%);
-      right: 9%;        
+      left: -22%;        
   }
   &__image5 {
       @include image-direction(relative, 40%);
-      left: -11%;        
+      left: -25%;        
   }
 }
 
 
 // The Features Sections
+.feature {
+  @include display(flex, column, left, left);
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 10%;
+
+  .feature__header1 {
+    @include length(200px, 16px, 10px, $midGrey);
+    margin-top: 50%;
+    font-style: initial;
+    padding-left: 10%;
+
+  }
+  .feature__header2 {
+    @include length(650px, 39px, 32px, $darkGrey);
+    font-style: bold;
+    margin-bottom: 0%;
+    padding-left: 10%;
+  }
+  .feature__paragraph {
+    @include length(6500px, 96px, 14px, $midGrey);
+    padding-left: 10%;
+  }
+}
 
 .features {
   @include display(flex, row, center, center);
@@ -99,6 +124,8 @@
 
       &__text {
         font-weight: bold;
+        font-size: 10px;
+        text-align: center;
     }
   
   }
@@ -281,14 +308,17 @@
 .mobileCities {
   @include hidden();
 }
-
+.mobilefeature {
+  @include hidden();
+}
 
 
 // mobile view responsiveness
 
 @media screen and (max-width: 580px) {
   #Home {
-      background-image: none;   
+      background-image: none;
+      margin-top: 0%;   
   }
   .navber .headerimage{
     margin-top: 5%;
@@ -356,24 +386,48 @@
     }
     &__image2 {
         @include position(100px, relative, 75%);
-        margin-top: 10%;
-        left: 8%;      
+        margin-top: 5%;
+        left: 10%;      
     }
     &__image3 {
-        @include position(100px, relative, 100%);
-        right: 2%;
+        @include position(100px, relative, 200%);
+        right: 4%;
     }
     &__image4 {
-        @include position(100px, relative, 70%);
-        margin-top: 10%;
-        right: 13%;        
+        @include position(100px, relative, 20%);
+        margin-top: 3%;
+        right: 15%;        
     }
     &__image5 {
         @include hidden();        
     }
   }
   
+  .feature {
+    @include hidden();
+  }
+  .mobilefeature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
 
+    .mobilefeature__header1 {
+      @include hidden();
+    }
+    .mobilefeature__header2 {
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      color: $darkGrey;
+      font-weight: bold;
+    }
+    .mobilefeature__paragraph {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #7A8085;
+    }
+  }
   .features {
       @include flex(flex, row);
       flex-wrap: wrap;
@@ -439,6 +493,7 @@
         text-align: center;
         font-size: 22px;
         line-height: 27px;
+        margin-top: 10%;
     }
   }
   
