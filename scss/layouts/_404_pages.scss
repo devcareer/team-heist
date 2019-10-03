@@ -14,19 +14,30 @@
   @include for-phone-only(){
     
   }
+  .404{
+    .restriction ul {
+
+    }
+    .restriction .headerimg{
+      background: url();
+    }
+  }
 
 .main1 {
-
+  width: 85%;
+  font-family: 'Proxima-Nova', sans-serif;
+  // margin: 0 auto;
+  // background: red;
  
 
 .blue_cloud{
     z-index: -1;
-    // width: 99.95vw;
+   max-width: 99.95vw;
     height: 55%;
     overflow-x: hidden;
     position: relative;
-    top: 50px;
-    margin-bottom: 35px;
+    top: 100px;
+    margin-bottom: 100px;
 
     @include for-phone-only{
       display: none;
@@ -37,6 +48,11 @@
     justify-content: space-around;
     position: absolute;
     top: 0;
+    margin-left: 7%;
+    margin-top: 2%;
+    // width: 85%;
+    // margin: 0 auto;
+    // background: yellow;
 
     .w404_img__txt {
        display: flex;
@@ -44,26 +60,28 @@
        justify-content: center;
        align-items: center;
        width: 50%;
+       margin-top: 130px;
 
        .w404__img--txtt{
+        //  background: red;
         font-size: 46px;
-        font-weight: 900;
+        font-weight: 700;
         width: 90%;
         line-height: 1.2;
         word-spacing: 5px;
         color: rgba(0,0,0, 0.8);
         margin-top: 6rem;
-        margin-bottom: 20px;
-        margin-left:89px;
+        margin: 0 0 20px 0px;
+        
        }
       
        .w404__img--txttt {
           width: 75%;
-          font-size: 26px;
-          font-weight: 200;
+          font-size: 23px;
+          font-weight: 100;
           color: lightgrey;
           line-height: 1.3;
-
+          margin-left: -79px;
 
           a{
               text-decoration: none;
@@ -73,8 +91,8 @@
        
     }
     .img--space_rabbit {
-       margin-top: 9.5% ;
-       margin-right: 1%;
+       margin-top: 12.0%;
+       margin-right: 15%;
        width: 40%;
        height: 40%;
     }
