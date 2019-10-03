@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$fontFamily: 'Raleway' 'sans-serif';
+$fontSize: 16px;
+$lineHeight: 22px;
+$titleColor: #505050;
+
+
+@mixin h4 {
+    font-size: $fontSize+6;
+    line-height: $lineHeight;
+    margin-bottom: 10px;
+    color: $titleColor;
+}
+
+@mixin career-flex {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+@mixin  media-query($width){
+    @media screen and (max-width: $width){
+        @content;
+    } 
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $fontFamily;
+}
+
+
+#career-header{
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#header-text{
+    margin: 0px auto;
+    width: 80%;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+#first-career-container{
+    background-color: #fafafa;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    img#careerlist-2-image{
+        position: absolute;
+        right: 250px;
+        top: 653px;
+        @include media-query(767px){
+            display: none;
+        }
+        @include media-query(940px){
+            right: 150px;
+        }
+        @include media-query(1120px){
+            top: 642px;
+        }
+        @include media-query(800px){
+            top: 659px;
+        }
+    }
+
+    
+    .first-career-item{
+        @include career-flex;
+        background-color: #f6f6f6;
+        border: 1px dashed black ;
+        border-radius: 8px;
+        padding: 40px;
+        padding-bottom: 50px;
+
+        #first-career-item-1{
+            width: 60%;
+            @include media-query(767px){
+                width: 90%;
+            }
+        }
+
+       .career-item{
+       
+           h4{
+               @include h4;
+               font-weight: 900;
+               font-size: 19px;
+               
+               @include media-query(1450px){
+                font-size: 14px;
+                }
+                @include media-query(900px){
+                    font-size: 12px;
+                    }
+           }
+
+           a{
+               font-size: $fontSize;
+               color: #01AAE4;
+               @include media-query(830px){
+                font-size: 14px;
+                }
+           }
+
+           i{
+            margin-top:10px;
+               
+           }
+       }
+    }
+}
+
+
+#second-career-containers{
+    @include career-flex;
+    padding: 40px 0;
+    position: relative;
+
+    @include media-query(767px){
+        flex-direction: column;
+    }
+
+   
+    
+    .second-career-item{
+        width: 27%;
+        text-align: left;
+
+        @include media-query(767px){
+            width: 90%;
+            margin-bottom: 40px;
+        }
+        h4{
+            @include h4;
+            font-size: 18px;
+        }
+        p{
+            @extend h4;
+            color: #878787;
+            font-weight: normal;
+            font-size: 16px;
+        }
+    }
+}
