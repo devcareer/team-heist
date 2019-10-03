@@ -2164,10 +2164,11 @@ a {
 .term {
   margin-top: 2%; }
   .term__header {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 42px;
     line-height: 49px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-bottom: 40%; }
   .term__image {
     margin-top: -250%;
     margin-left: 40%;
@@ -2181,15 +2182,17 @@ a {
   background: #FFFFFF;
   position: absolute;
   border-radius: 8px;
-  margin-bottom: 3%;
-  padding: 3%;
-  top: 100px;
-  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05); }
+  margin-bottom: 15%;
+  padding: 2%;
+  top: 430px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+  width: 80%;
+  margin-left: -5%; }
   .termSection__text {
     margin-left: 7%; }
   .termSection__input {
-    margin-left: 35%;
-    width: 350px;
+    margin-left: 25%;
+    width: 250px;
     border-radius: 8px; }
 
 .mobileTermSection {
@@ -2224,7 +2227,7 @@ a {
   .termText__header {
     font-size: 20px;
     line-height: 27px;
-    margin-top: 20%; }
+    margin-top: 30%; }
   .mobileTermSection {
     display: flex;
     flex-direction: column;
@@ -2234,7 +2237,8 @@ a {
     margin-bottom: -20%;
     padding: 5%;
     top: 50%;
-    margin-top: 30%; }
+    margin-top: -30%;
+    width: 300px; }
     .mobileTermSection__input {
       width: 250px;
       padding: 5%;
