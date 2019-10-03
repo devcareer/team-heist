@@ -10,7 +10,10 @@
 @import 'components/_carousel';
 @import 'components/_slider';
 
+@import 'layouts/_404_section';
+@import 'layouts/_career_list_table_input';
 @import 'layouts/_footer';
+@import 'layouts/_404_pages';
 @import 'layouts/_forms';
 @import 'layouts/_grid';
 @import 'layouts/_header';
@@ -34,4 +37,6 @@
 @import 'themes/_themes'; 
 
 @import 'vendors/_jquery-ui';
-@import 'vendors/_bootstrap';
+@import 'vendors/_bootstrap'; 
+
+
