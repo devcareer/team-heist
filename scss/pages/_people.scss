@@ -110,6 +110,7 @@ margin-left:-0.5rem;
   
   .people-2{
       overflow-y: hidden;
+      margin-top: 60%;
   
      
   
@@ -431,6 +432,18 @@ margin-left:-0.5rem;
 .mobileIcon {
     @include hidden();
 }
+.department {
+  @include hidden();
+}
+.people-containerMobile {
+  @include hidden();
+}
+.people-2Mobile {
+  @include hidden();
+}
+.mobilethought {
+  @include hidden();
+}
 .peopleVideo {
     margin-top: 10%;
 }
@@ -466,6 +479,41 @@ margin-left:-0.5rem;
 }
 .peopleCarousel__image3 {
     width: 1200px;
+}
+
+.thought__header {
+  font-size: 42px;
+  line-height: 49px;
+  color: #000000;
+}
+.thought__paragraph {
+  font-size: 24px;
+  line-height: 32px;
+  color: $midGrey;
+}
+.thought__button {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $white;
+  background: #01AAE4;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+  margin-right: -5%;
+  width: 250px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.thought__button2 {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $white;
+  background: #01AAE4;
+  border-radius: 0px 8px 8px 0px;
+  margin-bottom: 20%;
+  padding: 10px;
+  width: 50px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 580px) {
@@ -515,5 +563,153 @@ margin-left:-0.5rem;
         height: 200px;
         
     }
+    .peopleCarousel__image4 {
+      width: 300px;
+      height: 200px;
+      
+  }
+
+  .flex-container {
+    
+    #flex-item-1 {
+      display: none;
+    }
+    #flex-item-2 {
+      display: none;
+    }
+  }
+  .department {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50%;
+
+    &__header {
+      font-size: 22px;
+      line-height: 27px;
+      color: #555555;
+    }
+    &__paragraph {
+      color: $midGrey;
+      font-size: 14px;
+      line-height: 19px;
+      width: 280px;
+    }
+  }
+  .people-container {
+    @include hidden();
+  }
+  .people-containerMobile {
+    display: block;
+
+    .item-1 {
+      position: relative;
+      left: 250px;
+      top: 100px;
+    }
+    .item-2 {
+      position: relative;
+      left: 150px;
+      top: 150px;
+    }
+    .item-3 {
+      position: relative;
+      left: 150px;
+      top: 50px;
+    }
+    .item-4 {
+      position: relative;
+      left: 150px;
+      top: 150px;
+    }
+    .people-containerMobile__header {
+      font-size: 24px;
+      line-height: 26px;
+      color: #505050;
+    }
+    .people-containerMobile__paragraph {
+      font-size: 12px;
+      line-height: 16px;
+      color: #000000;
+    }
+  }
+  .people-2 {
+    display: none;
+  }
+  .people-2Mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 270%;
+    margin-left: 10%;
+  }
+  .people-2Mobile__header {
+    font-size: 22px;
+    line-height: 27px;
+    color: #555555;
+  }
+  .people-2Mobile__paragraph {
+    font-size: 14px;
+    line-height: 19px;
+    color: $midGrey;
+  }
+  .thought {
+    display: none;
+  }
+  .mobilethought {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+
+    .mobilethought__header {
+      font-size: 22px;
+      line-height: 27px;
+      color: #555555;
+    }
+    .mobilethought__paragraph {
+      font-size: 14px;
+      line-height: 19px;
+      color: $midGrey;
+    }
+    .mobilethought__link {
+      display: inline;
+    }
+  }
 }
 
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
