@@ -1629,27 +1629,27 @@ u {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: -15rem;
-  margin-left: 5rem; }
+  margin-left: 7rem; }
   .grid .item1 {
     margin-top: 24rem;
-    margin-left: 17rem; }
+    margin-left: 6rem; }
   .grid .item2 {
     margin-top: 19rem;
-    margin-left: 0.5rem; }
+    margin-left: -4rem; }
   .grid .item3 {
-    margin-left: -17rem; }
+    margin-left: -23rem; }
   .grid .item4 {
-    margin-left: 22rem;
+    margin-left: 11rem;
     margin-top: 0.5rem; }
   .grid .item5 {
     margin-top: -10.5rem;
-    margin-left: 0.5rem; }
+    margin-left: -3.8rem; }
   .grid .item6 {
     margin-top: -10.5rem;
-    margin-left: -1.7rem; }
+    margin-left: -7.5rem; }
 
 .item7 {
-  margin-left: 73rem;
+  margin-left: 65rem;
   margin-top: -19.5rem; }
 
 @media (max-width: 580px) {
