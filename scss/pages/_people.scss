@@ -412,6 +412,38 @@ margin-left:-0.5rem;
   }
   }
   
+  .people-subnav-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2rem;
+    z-index: 2;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    .people-subnavimg {
+        margin-left: 10rem;
+    }
+    .people-subnav-ul {
+        display: flex;
+        li {
+            color: $midGrey;
+            margin-left: 1rem;
+        }
+        .people-subnavbar-btn {
+            margin-top: -0.3rem;
+            margin-left: 2rem;
+            a {
+                color: skyblue;
+                text-decoration: none;
+            }
+            img {
+                margin-left: 1rem;
+            }
+        }
+    }
+  }
   
   .peopleSection{
     margin-top: 20%;
