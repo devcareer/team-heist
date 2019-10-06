@@ -465,7 +465,7 @@ margin-left:-0.5rem;
     @include hidden();
 }
 .department {
-  @include hidden();
+  display: none;
 }
 .people-containerMobile {
   @include hidden();
@@ -474,7 +474,7 @@ margin-left:-0.5rem;
   @include hidden();
 }
 .mobilethought {
-  @include hidden();
+  display: none;
 }
 .peopleVideo {
     margin-top: 10%;
@@ -613,7 +613,7 @@ margin-left:-0.5rem;
   .department {
     display: flex;
     flex-direction: column;
-    margin-top: -50%;
+    
 
     &__header {
       font-size: 22px;
