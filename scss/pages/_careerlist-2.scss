@@ -35,40 +35,45 @@ $titleColor: #505050;
 }
 
 
-#career-header{
+.career-header{
     width: 86%;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
 }
 
-#header-text{
+.header-text{
     margin: 0px auto;
     width: 80%;
-    margin-top: 50px;
+    margin-top: 20px;
     line-height: 25px;
+    font-size: 30px;
+}
+#header-text{
+    font-size: 35px;
 }
 
 #first-career-container{
     background-color: #fafafa;
     padding-top: 150px;
     padding-bottom: 150px;
+    position: relative;
 
     img#careerlist-2-image{
         position: absolute;
         right: 250px;
-        top: 653px;
+        top: 82px;
         @include media-query(767px){
             display: none;
         }
-        @include media-query(940px){
-            right: 150px;
+        @include media-query(1120px){
+            right: 140px;
         }
         @include media-query(1120px){
-            top: 642px;
+           // top: 642px;
         }
         @include media-query(800px){
-            top: 659px;
+           // top: 659px;
         }
     }
 
