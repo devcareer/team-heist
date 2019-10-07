@@ -1,0 +1,162 @@
+.homepage-subnav{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 2rem;
+    z-index: 2;
+    background: white;
+    position: fixed;
+   top: 0;
+    width: 100%;
+   
+    .homepage-subnav-line{
+        border-right: thin solid $midGrey;
+        width: 6rem;
+    }
+
+    .homepage-subnavimg{
+        margin-left: 10rem;
+    }
+    .homepage-subnav-ul{
+        display:flex;
+        li {
+            color: $midGrey;
+            margin-left: 1rem;
+        }
+
+        .homepage-subnavbar-btn{
+            margin-left: 2rem;
+            a {
+                color: skyblue;
+                text-decoration: none;
+            }
+            img {
+                margin-left: 1rem;
+            }
+        }
+    }
+    
+}
+
+.home-cta-modal {
+    margin-top: 5rem;
+   
+    text-align: center;
+
+    a{
+        color: $skyBlue;
+        text-decoration: none;
+    }
+    .gridp{
+        a{
+            text-decoration: none;
+            color:$skyBlue;
+        }
+    }
+    
+    .home-tick {
+        margin-bottom: 2rem;
+    }
+    input[type] {
+        width:15rem;
+        height: 3rem;
+        border-radius: 0.3rem;
+
+    }
+    .home-cta-btn {
+        width: 12rem;
+        height: 3rem;
+        background: $skyBlue;
+        border: none;
+        border-radius: 0.5rem;
+        color: white;
+        margin-top: 2rem;
+
+        a{
+            color: white;
+        }
+    }
+    h3 {
+        margin-bottom: 1rem;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+    .cta-modal_x {
+        margin-left: 95rem;
+        margin-bottom: 7rem;
+        width: 1rem;
+    }
+    .home-copyright {
+        display: flex;
+    
+    align-items: center;
+    justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+
+        .apple2{
+            margin-right:1.5rem;
+        }
+        
+                .playstore2 {
+                   margin-left: 2rem;
+                }
+                
+        
+        }
+    }
+
+    .home-ctamodal-2{
+        margin-top: 5rem;
+       text-align: center;
+
+       .home-cta-btn2{
+        width: 12rem;
+        height: 3rem;
+        background: $skyBlue;
+        border: none;
+        border-radius: 0.5rem;
+        color: white;
+        margin-top: 2rem;
+       }
+
+        h3{
+            margin-top: 2rem;
+
+        }
+        p{
+            margin-top: 2rem;
+            
+            a{
+                color: $skyBlue;
+                text-decoration: none;
+            }
+        }
+    }
+    .home-copyright {
+        display: flex;
+    
+    align-items: center;
+    justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+
+.apple2{
+    margin-right:1rem;
+}
+
+        .playstore2 {
+           margin-left: 2rem;
+        }
+        
+    }
+
+        .gridp{
+            text-align:center;
+
+            a{
+                color: $skyBlue;
+                text-decoration: none;
+            }
+        }
+    

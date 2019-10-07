@@ -1228,6 +1228,9 @@ body {
     margin-bottom: 3%;
     border: none;
     width: 300px; }
+    .appInfo--button a {
+      text-decoration: none;
+      color: #FFFFFF; }
   .appInfo__text {
     font-size: 16px;
     line-height: 22px;
@@ -1550,71 +1553,112 @@ u {
       margin-top: 10%;
       margin-bottom: 10%; } }
 
-.ctamodal {
-  text-align: center;
-  margin-top: 13rem; }
-  .ctamodal .ctabtn {
-    width: 10rem;
-    height: 2rem;
-    background: #01AAE4;
-    border-radius: 8px; }
-  .ctamodal .playstore {
-    background: gradient(163.58deg, #19A3B4 -19.92%, #5BC3AF 17.22%, #C8F7A6 78.46%, #D7FEA5 86.75%); }
-  .ctamodal .ctamodal a {
-    color: #FA6866;
-    text-decoration: none; }
-  .ctamodal input[type=text] {
-    width: 12rem;
-    height: 1.5rem;
-    border-radius: 0.3rem; }
-  .ctamodal ::placeholder {
-    padding-left: 0.5rem; }
+.homepage-subnav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2rem;
+  z-index: 2;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .homepage-subnav .homepage-subnav-line {
+    border-right: thin solid #878787;
+    width: 6rem; }
+  .homepage-subnav .homepage-subnavimg {
+    margin-left: 10rem; }
+  .homepage-subnav .homepage-subnav-ul {
+    display: flex; }
+    .homepage-subnav .homepage-subnav-ul li {
+      color: #878787;
+      margin-left: 1rem; }
+    .homepage-subnav .homepage-subnav-ul .homepage-subnavbar-btn {
+      margin-left: 2rem; }
+      .homepage-subnav .homepage-subnav-ul .homepage-subnavbar-btn a {
+        color: skyblue;
+        text-decoration: none; }
+      .homepage-subnav .homepage-subnav-ul .homepage-subnavbar-btn img {
+        margin-left: 1rem; }
 
-.grid {
-  display: flex;
-  margin-left: 32rem;
-  margin-top: 15rem; }
-  .grid .gridp {
-    text-align: center;
+.home-cta-modal {
+  margin-top: 5rem;
+  text-align: center; }
+  .home-cta-modal a {
+    color: #01AAE4;
+    text-decoration: none; }
+  .home-cta-modal .gridp a {
+    text-decoration: none;
+    color: #01AAE4; }
+  .home-cta-modal .home-tick {
+    margin-bottom: 2rem; }
+  .home-cta-modal input[type] {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.3rem; }
+  .home-cta-modal .home-cta-btn {
+    width: 12rem;
+    height: 3rem;
+    background: #01AAE4;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
     margin-top: 2rem; }
-  .grid .ctamodal2 {
-    text-align: center;
-    margin-top: 13rem; }
-    .grid .ctamodal2 .ctabtn {
-      width: 13rem;
-      height: 2.3rem;
-      margin-top: 2rem;
-      background: #01AAE4;
-      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 8px; }
-  .grid .subnavbarsection .containe {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
-    margin: 5rem;
-    overflow: hidden; }
-  .grid .subnavbarsection .subnav {
-    justify-self: flex-end;
+    .home-cta-modal .home-cta-btn a {
+      color: white; }
+  .home-cta-modal h3 {
+    margin-bottom: 1rem; }
+  .home-cta-modal p {
+    margin-bottom: 1rem; }
+  .home-cta-modal .cta-modal_x {
+    margin-left: 95rem;
+    margin-bottom: 7rem;
+    width: 1rem; }
+  .home-cta-modal .home-copyright {
     display: flex;
     align-items: center;
-    justify-content: center; }
-  .grid .subnavbarsection a {
-    text-decoration: none;
-    color: skyblue; }
-  .grid .subnavbarsection ul li {
-    list-style: none;
-    padding: 0 1rem; }
-  .grid .feat {
-    text-align: center; }
-    .grid .feat .featp {
-      margin-right: 21rem; }
-    .grid .feat h3 {
-      margin-right: 15rem; }
-    .grid .feat p {
-      margin-top: 1rem; }
-  .grid .feat2 {
-    margin-top: 5rem;
-    text-align: center; }
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 2rem; }
+    .home-cta-modal .home-copyright .apple2 {
+      margin-right: 1.5rem; }
+    .home-cta-modal .home-copyright .playstore2 {
+      margin-left: 2rem; }
+
+.home-ctamodal-2 {
+  margin-top: 5rem;
+  text-align: center; }
+  .home-ctamodal-2 .home-cta-btn2 {
+    width: 12rem;
+    height: 3rem;
+    background: #01AAE4;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 2rem; }
+  .home-ctamodal-2 h3 {
+    margin-top: 2rem; }
+  .home-ctamodal-2 p {
+    margin-top: 2rem; }
+    .home-ctamodal-2 p a {
+      color: #01AAE4;
+      text-decoration: none; }
+
+.home-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-bottom: 2rem; }
+  .home-copyright .apple2 {
+    margin-right: 1rem; }
+  .home-copyright .playstore2 {
+    margin-left: 2rem; }
+
+.gridp {
+  text-align: center; }
+  .gridp a {
+    color: #01AAE4;
+    text-decoration: none; }
 
 .people .navbar {
   margin: 0;
