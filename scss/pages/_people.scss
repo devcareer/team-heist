@@ -142,7 +142,7 @@ margin-left:-0.5rem;
               align-items: center;
   
               .top__nav--txtt{
-                  width: 68%;
+                  width: 69%;
                   line-height: 1.6;
                   font-size: 20px;
                   font-weight: 300;
@@ -279,139 +279,141 @@ margin-left:-0.5rem;
         
       }
   
-      .people-mob{
-        display: none;
-        background: hsl(216,45,97);
+      
+  }
   
-  
+  .people-mob{
+    display: none;
+    background: hsl(216,45,97);
+
+
+    @include for-phone-only(){
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 5%;
+      margin-top: 49rem; 
+
+    }
+    .activities--mob {
+      @include for-phone-only(){
+        font-size: 26px;
+        font-weight: 700;
+        padding: 15px 0;
+        z-index: 3;
+        
+      }
+    }
+    .activities__txt--mob{
+      @include for-phone-only(){
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.2;
+        width: 90%;
+        margin-bottom: 20px;
+        color: rgba(0,0,0 , 0.5);
+      }
+    }
+    .sec__top__nav--mob{
         @include for-phone-only(){
-          display: block;
-          max-width: 100%;
-          margin: 0 auto;
-          padding: 0 5%;
-  
+          border: 1px solid grey;
+          box-shadow: 0 10px 10px rgba(0,0,0 , 0.7);
+            z-index: 4;
+            background: #fff;
+          
         }
-        .activities--mob {
-          @include for-phone-only(){
-            font-size: 26px;
-            font-weight: 700;
-            padding: 15px 0;
-            z-index: 3;
+      .activities{
+        @include for-phone-only(){
+          display: flex;
+          flex-direction: column;
+          margin: 5px 0;
+          padding: 5px;
+          
+        }
+        .activities__txt{
+          font-size: 20px;
+        }
+
+        .icons{
+          display: flex;
+          border-bottom: 1px solid grey;
+          margin-bottom: 0 15px 30px 0;
+          font-size: 16px;
+          i {
+            padding: 5px;
+            margin: 3px;
+          }
+          h5{
+            padding: 5px;
+            margin: 3px;
             
           }
         }
-        .activities__txt--mob{
-          @include for-phone-only(){
+        hr{height: 30px}
+       
+      }
+      .users__activities--mob{
+       
+        .user--mob{
+          display: flex;
+          margin-bottom: 15px;
+          
+          img{
+            width: 20%;
+            padding:0  10px;
+          }
+          
+          .user--time{
+            color: rgba(0,0,0, 0.5);
+          }
+          .user__message {
+            padding-left: 20px;
             font-size: 16px;
-            font-weight: 300;
-            line-height: 1.2;
-            width: 90%;
-            margin-bottom: 20px;
-            color: rgba(0,0,0 , 0.5);
-          }
-        }
-        .sec__top__nav--mob{
-            @include for-phone-only(){
-              border: 1px solid grey;
-              box-shadow: 0 10px 10px rgba(0,0,0 , 0.7);
-                z-index: 4;
-                background: #fff;
-              
-            }
-          .activities{
-            @include for-phone-only(){
-              display: flex;
-              flex-direction: column;
-              margin: 5px 0;
-              padding: 5px;
-              
-            }
-            .activities__txt{
-              font-size: 20px;
-            }
-  
-            .icons{
-              display: flex;
-              border-bottom: 1px solid grey;
-              margin-bottom: 0 15px 30px 0;
-              font-size: 16px;
-              i {
-                padding: 5px;
-                margin: 3px;
-              }
-              h5{
-                padding: 5px;
-                margin: 3px;
-                
-              }
-            }
-            hr{height: 30px}
-           
-          }
-          .users__activities--mob{
-           
-            .user--mob{
-              display: flex;
-              margin-bottom: 15px;
-              
-              img{
-                width: 20%;
-                padding:0  10px;
-              }
-              
-              .user--time{
-                color: rgba(0,0,0, 0.5);
-              }
-              .user__message {
-                padding-left: 20px;
-                font-size: 16px;
-                align-self: flex-end;
-                
-                .user--txt{
-                  color:  rgba(0,0,0, 0.5);
-                }
-              }
+            align-self: flex-end;
+            
+            .user--txt{
+              color:  rgba(0,0,0, 0.5);
             }
           }
         }
-  
-        .activities__txt1{
-  
-          @include for-phone-only(){
-            margin: 50px 0;
-          }
-  
-          .activities__txt1t{
-            @include for-phone-only(){
-              font-weight: 700;
-              font-size: 26px;
-              margin: 15px 0;
-            }
-          }
-          .activities__txt1tt{
-            @include for-phone-only(){
-              font-size: 16px;
-              font-weight: 300;
-              line-height: 1.2;
-              width: 90%;
-              margin-bottom: 20px;
-              color: rgba(0,0,0 , 0.5);
-            }
-          }
-          a{ 
-            color: aqua;
-            font-size: 20px;
-          }
-          .chilling--rabbits{
-            @include for-phone-only(){
-              margin: 30px 0;
-              overflow-x: hidden;
-            }
-          }
+      }
+    }
+
+    .activities__txt1{
+
+      @include for-phone-only(){
+        margin: 50px 0;
+      }
+
+      .activities__txt1t{
+        @include for-phone-only(){
+          font-weight: 700;
+          font-size: 26px;
+          margin: 15px 0;
         }
-  }
-  }
-  
+      }
+      .activities__txt1tt{
+        @include for-phone-only(){
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 1.2;
+          width: 90%;
+          margin-bottom: 20px;
+          color: rgba(0,0,0 , 0.5);
+        }
+      }
+      a{ 
+        color: aqua;
+        font-size: 20px;
+      }
+      .chilling--rabbits{
+        @include for-phone-only(){
+          margin: 30px 0;
+          overflow-x: hidden;
+        }
+      }
+    }
+}
   .people-subnav-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -672,17 +674,68 @@ margin-left:-0.5rem;
     flex-direction: column;
     margin-top: 270%;
     margin-left: 10%;
-  }
-  .people-2Mobile__header {
-    font-size: 22px;
-    line-height: 27px;
-    color: #555555;
-  }
-  .people-2Mobile__paragraph {
-    font-size: 14px;
-    line-height: 19px;
-    color: $midGrey;
-  }
+    border: 1px solid red;
+    margin-top: 85rem;
+
+    .people_2a {
+
+      .top__nav{
+        @include for-phone-only(){
+          border: 1px solid pink;
+        }
+    }
+    }
+.sec__top__nav {
+    .activities{
+      @include for-phone-only(){
+        border: 2px dashed red;
+        margin-top: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+      }
+      .icons{
+        @include for-phone-only(){
+          display: flex;
+        }
+      }
+    }
+    .users__activities {
+       
+      .user {
+        @include for-phone-only(){
+          border: 2px solid red;
+          display: flex;
+        }
+        img {
+          width: 20%;
+          height: 5%;
+        }
+        .user--name {
+          @include for-phone-only(){
+             border: 1px solid blue;
+             margin-top: 4px;
+          }
+        }
+        .user--txt {
+          @include for-phone-only(){
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+    }}
+  // .people-2Mobile__header {
+  //   font-size: 22px;
+  //   line-height: 27px;
+  //   color: #555555;
+  // }
+  // .people-2Mobile__paragraph {
+  //   font-size: 14px;
+  //   line-height: 19px;
+  //   color: $midGrey;
+  // }
   .thought {
     display: none;
   }
