@@ -642,7 +642,7 @@ body {
   .navbar-toggler {
     margin-top: 5%; }
   .imagge {
-    margin-left: -20%; } }
+    margin-left: -50%; } }
 
 .careerdetails {
   display: flex;
@@ -1053,8 +1053,11 @@ body {
       line-height: 19px;
       color: #878787; }
   .owl-theme {
-    margin-top: 20%; }
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center; }
     .owl-theme .item {
+      display: flex;
       width: 300px;
       margin-left: 0%; } }
 
@@ -1508,7 +1511,8 @@ u {
     display: none; }
   .mobileCities {
     display: flex;
-    margin-top: 10%; }
+    margin-top: 10%;
+    justify-content: center; }
     .mobileCities__text {
       text-align: center;
       font-size: 18px;
@@ -2087,12 +2091,15 @@ u {
     display: flex;
     flex-direction: row; }
   .mobileIcon {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   .peopleVideo__image {
     display: none; }
   .mobilePeopleVideo__image {
     display: flex;
-    width: 280px; }
+    width: 280px;
+    justify-items: center;
+    align-items: center; }
   .peopleCarousel {
     width: 300px;
     height: 200px; }
@@ -3019,7 +3026,9 @@ a {
     padding: 5%;
     top: 50%;
     margin-top: 30%;
-    width: 300px; }
+    width: 300px;
+    justify-content: center;
+    align-items: center; }
     .mobileTermSection__input {
       width: 250px;
       padding: 5%;

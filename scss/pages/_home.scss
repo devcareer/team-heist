@@ -503,7 +503,8 @@
   .mobileCities {
       display: flex;
       margin-top: 10%;
-
+      justify-content: center;
+      
       &__text {
         @include beauty(center, 18px, $white);
         position: relative;
@@ -615,7 +616,6 @@
     }
   }
 }
-
 
 
 

@@ -92,6 +92,8 @@
         @include body($white, absolute, 8px, -20%, 5%, 50%);
         margin-top: 30%;
         width: 300px;
+        justify-content: center;
+        align-items: center;
 
         &__input {
             width: 250px;
