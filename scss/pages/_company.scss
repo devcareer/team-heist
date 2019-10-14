@@ -315,10 +315,13 @@
     }
     .owl-theme {
       margin-top: 20%;
+      justify-content: center;
+      align-items: center;
   
       .item {
+        display: flex;
         width: 300px;
-        margin-left: 3%;
+        margin-left: 0%;
       }
     }
   }

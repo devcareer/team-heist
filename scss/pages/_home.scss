@@ -64,23 +64,23 @@
 
   &__image1 {
       position: relative;
-      left: -5%;
+      left: 11%;
   }
   &__image2 {
       @include image-direction(relative, 60%);
-      left: -8%;        
+      left: 8%;        
   }
   &__image3 {
       @include image-direction(relative, 80%);
-      left: -15%;        
+      left: 0%;        
   }
   &__image4 {
       @include image-direction(relative, 60%);
-      left: -22%;        
+      left: -7%;        
   }
   &__image5 {
       @include image-direction(relative, 40%);
-      left: -25%;        
+      left: -10%;        
   }
 }
 
@@ -94,7 +94,7 @@
 
   .feature__header1 {
     @include length(200px, 16px, 10px, $midGrey);
-    margin-top: 50%;
+    margin-top: -8%;
     font-style: initial;
     padding-left: 10%;
 
@@ -385,16 +385,16 @@
         @include hidden();
     }
     &__image2 {
-        @include position(100px, relative, 75%);
+        @include position(110px, relative, 75%);
         margin-top: 5%;
         left: 10%;      
     }
     &__image3 {
-        @include position(100px, relative, 200%);
+        @include position(110px, relative, 100%);
         right: 4%;
     }
     &__image4 {
-        @include position(100px, relative, 20%);
+        @include position(110px, relative, 75%);
         margin-top: 3%;
         right: 15%;        
     }
@@ -409,7 +409,7 @@
   .mobilefeature {
     display: flex;
     flex-direction: column;
-    margin-top: 70%;
+    margin-top: 10%;
 
     .mobilefeature__header1 {
       @include hidden();
@@ -503,7 +503,8 @@
   .mobileCities {
       display: flex;
       margin-top: 10%;
-
+      justify-content: center;
+      
       &__text {
         @include beauty(center, 18px, $white);
         position: relative;
@@ -615,7 +616,6 @@
     }
   }
 }
-
 
 
 
