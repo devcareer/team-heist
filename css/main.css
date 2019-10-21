@@ -608,6 +608,8 @@ body {
   .navbar .navbar-nav .nav-item .nav-link {
     color: #FFFFFF;
     line-height: 17px; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #FFFFFF; }
 
 .navbar-toggler {
   justify-content: left; }
